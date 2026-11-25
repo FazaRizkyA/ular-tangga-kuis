@@ -32,7 +32,10 @@ android.permissions =
 android.api = 33
 android.minapi = 24
 android.ndk = 25b
-android.archs = arm64-v8a, armeabi-v7a
+# arm untuk HP; x86_64 agar APK bisa diuji otomatis di emulator (dan jalan di tablet/Chromebook x86)
+android.archs = arm64-v8a, armeabi-v7a, x86_64
+android.release_artifact = apk
+android.debug_artifact = apk
 android.accept_sdk_license = True
 android.allow_backup = True
 

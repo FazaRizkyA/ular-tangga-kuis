@@ -1,7 +1,12 @@
 name: Build APK Android
 
-# Membuat APK Android dari kode yang sama dengan versi Windows.
+# Membuat APK rilis (zipalign + tanda tangan v1/v2/v3) dari kode yang sama
+# dengan versi Windows, lalu memasang & menjalankannya di emulator Android 13.
 # Berjalan otomatis tiap push ke main, atau manual dari tab Actions.
+#
+# Kunci tanda tangan: bila Secrets ANDROID_KEYSTORE_B64, ANDROID_KEYSTORE_PASS,
+# ANDROID_KEY_ALIAS diisi, kunci itu dipakai (update APK bisa dipasang menimpa
+# versi lama). Bila kosong, dibuat kunci sementara untuk build ini saja.
 on:
   push:
     branches: [main]
@@ -11,7 +16,7 @@ on:
 jobs:
   apk:
     runs-on: ubuntu-22.04
-    timeout-minutes: 90
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
 
@@ -41,11 +46,86 @@ jobs:
             .buildozer
           key: buildozer-${{ runner.os }}-${{ hashFiles('buildozer.spec') }}
 
-      - name: Build APK (debug)
-        run: yes | buildozer -v android debug
+      - name: Build APK rilis (belum ditandatangani)
+        run: yes | buildozer -v android release
+
+      - name: Rapikan & tandatangani APK (v1 + v2 + v3)
+        env:
+          KS_B64: ${{ secrets.ANDROID_KEYSTORE_B64 }}
+          KS_PASS: ${{ secrets.ANDROID_KEYSTORE_PASS }}
+          KS_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+        run: |
+          set -e
+          KS="$RUNNER_TEMP/kunci.keystore"
+          if [ -n "$KS_B64" ]; then
+            echo "Memakai kunci tetap dari Secrets"
+            echo "$KS_B64" | base64 -d > "$KS"
+            PASS="$KS_PASS"; ALIAS="$KS_ALIAS"
+          else
+            echo "Secrets kosong: membuat kunci sementara untuk build ini"
+            PASS=$(openssl rand -hex 16); ALIAS=ulartanggakuis
+            keytool -genkeypair -keystore "$KS" -storetype PKCS12 -alias "$ALIAS" \
+              -keyalg RSA -keysize 2048 -validity 10000 -storepass "$PASS" -keypass "$PASS" \
+              -dname "CN=Ular Tangga Kuis, OU=XI PBTG, O=SMK Krian 1 Sidoarjo, C=ID"
+          fi
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          UNSIGNED=$(ls bin/*release*.apk | head -1)
+          echo "APK mentah: $UNSIGNED"
+          VERSI=$(grep -oP 'VERSI = "\K[^"]+' config.py)
+          OUT="bin/UlarTanggaKuis_v${VERSI}.apk"
+          "$BT/zipalign" -p -f 4 "$UNSIGNED" "$RUNNER_TEMP/rapi.apk"
+          "$BT/apksigner" sign --ks "$KS" --ks-key-alias "$ALIAS" \
+            --ks-pass "pass:$PASS" --key-pass "pass:$PASS" \
+            --v1-signing-enabled true --v2-signing-enabled true --v3-signing-enabled true \
+            --out "$OUT" "$RUNNER_TEMP/rapi.apk"
+          "$BT/apksigner" verify --verbose "$OUT"
+          rm -f "$KS"
+          ls -la bin/
 
       - name: Simpan APK
         uses: actions/upload-artifact@v4
         with:
           name: UlarTanggaKuis-android
-          path: bin/*.apk
+          path: bin/UlarTanggaKuis_v*.apk
+
+  uji-emulator:
+    needs: apk
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: UlarTanggaKuis-android
+
+      - name: Aktifkan KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Pasang & jalankan di emulator Android 13
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 33
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: |
+            adb install -r UlarTanggaKuis_v*.apk 2>&1 | tee hasil-instal.txt
+            grep -q Success hasil-instal.txt
+            adb shell monkey -p id.sch.smkkrian1.ulartanggakuis -c android.intent.category.LAUNCHER 1
+            sleep 45
+            adb exec-out screencap -p > layar.png
+            adb logcat -d > logcat.txt
+            grep -iE "python|Traceback|FATAL" logcat.txt | tail -80 || true
+            adb shell pidof id.sch.smkkrian1.ulartanggakuis && echo "GAME BERJALAN"
+
+      - name: Simpan hasil uji
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hasil-uji-emulator
+          path: |
+            layar.png
+            logcat.txt
+            hasil-instal.txt
