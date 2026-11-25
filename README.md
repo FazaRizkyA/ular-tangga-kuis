@@ -1,5 +1,15 @@
 # Ular Tangga Kuis
 
+<p align="center">
+  <a href="docs/video/ular_tangga_kuis_promo.mp4">
+    <img src="docs/video/pratinjau.webp" width="320" alt="Video promosi Ular Tangga Kuis">
+  </a>
+  <br>
+  <a href="docs/video/ular_tangga_kuis_promo.mp4"><b>▶ Tonton video lengkap (dengan suara)</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/FazaRizkyA/ular-tangga-kuis/releases/latest"><b>⬇ Unduh installer Windows</b></a>
+</p>
+
 Game papan edukasi ular tangga berbasis kuis, 100% offline, dibuat dengan Python 3.12 + Pygame.
 Project Sumatif Akhir Semester Ganjil, SMK Krian 1 Sidoarjo 2026/2027 (XI PBTG).
 
@@ -17,6 +27,26 @@ Papan 8 x 8 = 64 petak dengan tiga tingkat kesulitan:
 
 Soal yang sudah keluar tidak akan muncul lagi, termasuk saat **Main Lagi**. Bila soal kategori terpilih habis,
 soal diambil dari kategori lain; baru setelah ke-300 soal keluar semua, bank soal diacak ulang.
+
+## Tangkapan layar
+
+| | |
+| --- | --- |
+| ![Menu utama: papan nama stan pasar malam dengan untaian bohlam](docs/gambar/menu.png) | ![Layar Daftar Pemain: mode, jumlah pemain, kesulitan, nama, kategori soal](docs/gambar/pilih_pemain.png) |
+| **Menu utama** | **Daftar pemain**: mode Pass & Play / vs Bot, 2-4 pemain, kesulitan, kategori |
+| ![Permainan tingkat Sulit dengan 8 ular, papan skor, soal Sejarah Indonesia](docs/gambar/permainan_sulit.png) | ![Papan tingkat Mudah: 6 tangga dan 3 ular](docs/gambar/papan_mudah.png) |
+| **Tingkat Sulit**: 8 ular, 4 tangga | **Tingkat Mudah**: 6 tangga, 3 ular |
+| ![Soal Matematika dengan pecahan bersusun](docs/gambar/rumus_pecahan.png) | ![Dadu 3D berguling di atas papan](docs/gambar/dadu_3d.png) |
+| **Rumus ditulis bersusun**: pecahan, pangkat, akar | **Dadu 3D** hasil render Blender |
+| ![Bidak berjalan dengan jalur yang menyala](docs/gambar/bidak_berjalan.png) | ![Layar pemenang dengan peringkat dan pita juara](docs/gambar/pemenang.png) |
+| **Jalur bidak menyala** petak demi petak | **Layar pemenang** + Main Lagi |
+
+<details>
+<summary>Layar Cara Bermain</summary>
+
+![Layar Cara Bermain berisi aturan, tanda papan, dan tombol keyboard](docs/gambar/cara_bermain.png)
+
+</details>
 
 ## Anggota & peran
 
