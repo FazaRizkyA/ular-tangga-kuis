@@ -4,6 +4,8 @@ dist/
 __pycache__/
 *.spec
 aset_sumber/render_dadu/
+.buildozer/
+bin/
 .impeccable/review/
 .impeccable/questions/
 .impeccable/mocks/

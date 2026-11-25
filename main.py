@@ -103,7 +103,19 @@ class App:
         # Kanvas: koordinat logis 1280x720, piksel fisik sebesar resolusi layar
         # (mis. 1920x1080), sehingga layar penuh tampil 1:1 dan tajam.
         self.window = self.__buat_jendela()
-        if self.mode_gpu:
+        if IS_ANDROID:
+            # HP/tablet: layar penuh landscape. Kanvas digambar pas di resolusi layar
+            # (tanpa diperbesar) di tengah layar; sisa layar menjadi bilah gelap.
+            lw, lh = self.window.get_size()
+            s = min(lw / LEBAR, lh / TINGGI)
+            self.skala_render = s
+            gfx.atur_skala(s)
+            fisik = (min(lw, round(LEBAR * s)), min(lh, round(TINGGI * s)))
+            self.geser = ((lw - fisik[0]) // 2, (lh - fisik[1]) // 2)
+            self.skala = s
+            self.window.fill((8, 16, 34))
+            self.canvas = gfx.Kanvas(permukaan=self.window.subsurface(pygame.Rect(self.geser, fisik)))
+        elif self.mode_gpu:
             self.canvas = gfx.Kanvas(permukaan=pygame.Surface(self.ukuran_fisik))
             self.tekstur = self.__Texture.from_surface(self.renderer, self.canvas.p)
         else:
@@ -206,6 +218,9 @@ class App:
         return ((pos[0] - self.geser[0]) / self.skala, (pos[1] - self.geser[1]) / self.skala)
 
     def __tampilkan(self):
+        if IS_ANDROID:
+            pygame.display.flip()  # kanvas sudah bagian dari layar (subsurface)
+            return
         if self.mode_gpu:
             # unggah kanvas ke GPU, lalu tampilkan sesuai ukuran jendela (bilah hitam bila perlu)
             self.tekstur.update(self.canvas.p)

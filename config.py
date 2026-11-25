@@ -17,11 +17,12 @@ def resource_path(rel):
     return os.path.join(base, rel)
 
 
-IS_ANDROID = hasattr(sys, "getandroidapilevel")
+# Berjalan di Android (APK buatan Buildozer / python-for-android)?
+IS_ANDROID = hasattr(sys, "getandroidapilevel") or "ANDROID_ARGUMENT" in os.environ
 
 # ---------------------------------------------------------------- layar
 JUDUL = "Ular Tangga Kuis"
-VERSI = "1.1"   # satu-satunya tempat nomor versi; installer & menu mengikuti
+VERSI = "1.2"   # satu-satunya tempat nomor versi; installer & menu mengikuti
 LEBAR, TINGGI = 1280, 720
 FPS = 60
 
