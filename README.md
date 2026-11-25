@@ -7,7 +7,7 @@
   <br>
   <a href="docs/video/ular_tangga_kuis_promo.mp4"><b>▶ Tonton video lengkap (dengan suara)</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/FazaRizkyA/ular-tangga-kuis/releases/latest"><b>⬇ Unduh installer Windows</b></a>
+  <a href="https://github.com/FazaRizkyA/ular-tangga-kuis/releases/latest"><b>⬇ Unduh untuk Windows &amp; Android</b></a>
 </p>
 
 Game papan edukasi ular tangga berbasis kuis, 100% offline, dibuat dengan Python 3.12 + Pygame.
@@ -87,10 +87,55 @@ menu dan installer mengikuti otomatis.
 
 | Versi | Perubahan |
 | --- | --- |
+| 1.2 | Versi Android (APK) dari kode yang sama: layar penuh landscape, kendali sentuh, keyboard layar; build APK otomatis lewat GitHub Actions |
 | 1.1 | Papan 8 x 8 (64 petak); tingkat kesulitan Mudah/Sedang/Sulit; 300 soal tanpa pengulangan; rumus Matematika ditulis bersusun (pecahan, pangkat, akar); dadu 3D hasil render Blender; tampilan digambar di resolusi layar sehingga tajam saat layar penuh (F11) |
 | 1.0 | Rilis pertama: papan 6 x 6, 45 soal, mode Pass & Play dan vs Bot |
 
 ## Struktur
+
+```text
+ular-tangga-kuis/
+├── main.py                  # titik masuk: class App, loop Pygame, 5 layar
+├── game.py                  # GameManager: game state, giliran, skor, timer, log
+├── pemain.py                # Pemain + turunannya Bot
+├── petak.py                 # Petak + PetakTangga, PetakUlar, PetakFinish
+├── papan.py                 # Papan 8x8, letak ular & tangga per kesulitan
+├── soal.py                  # Soal + BankSoal (membaca soal.json, tanpa pengulangan)
+├── dadu.py                  # Dadu (angka acak 1-6)
+├── dadu3d.py                # animasi dadu 3D (render Blender / cadangan kode)
+├── rumus.py                 # PenataRumus: pecahan, pangkat, akar bersusun
+├── tampilan.py              # komponen gambar: papan cat, bohlam, tombol, karcis
+├── kanvas.py                # lapisan gambar di resolusi asli layar
+├── config.py                # konstanta, kesulitan, palet warna, VERSI
+├── soal.json                # bank soal: 300 soal (100 per kategori)
+├── icon.ico                 # ikon aplikasi Windows
+├── requirements.txt         # pygame, pyinstaller, pillow
+├── build.bat                # build .exe + installer Windows
+├── installer.iss            # skrip Inno Setup
+├── buildozer.spec           # konfigurasi APK Android
+├── README.md · LICENSE · PRODUCT.md · DESIGN.md
+├── assets/
+│   ├── fonts/               # Bungee, Atkinson Hyperlegible (+ lisensi OFL)
+│   ├── sounds/              # dadu, benar, salah, langkah, naik, turun, menang, klik
+│   ├── dadu3d/              # dadu_1.png … dadu_6.png + info.json (gambar dadu 3D)
+│   ├── icon.png
+│   └── SUMBER_ASET.txt      # asal-usul setiap aset
+├── aset_sumber/
+│   └── dadu.glb             # model 3D dadu (bahan render Blender)
+├── alat/                    # alat pengembang (tidak ikut installer)
+│   ├── uji_logika.py        # 44 uji otomatis
+│   ├── uji_simulasi.py      # 12 permainan penuh tanpa layar
+│   ├── tangkap_layar.py     # tangkapan layar semua layar
+│   ├── buat_aset.py         # ikon & efek suara
+│   ├── render_dadu_blender.py
+│   └── buat_sheet_dadu.py
+├── docs/
+│   ├── gambar/              # tangkapan layar untuk README
+│   └── video/               # video promosi + pratinjau
+├── .github/workflows/
+│   └── android.yml          # build APK otomatis (GitHub Actions)
+└── .impeccable/             # catatan desain (arah visual & token)
+```
 
 | File | Isi |
 | --- | --- |
@@ -142,8 +187,23 @@ Lihat `assets/SUMBER_ASET.txt`.
 
 ## Unduh
 
-Installer Windows siap pakai (offline) ada di halaman **Releases** repo ini:
-`Setup_UlarTanggaKuis_v1.1.exe`.
+Semua file ada di halaman **[Releases](https://github.com/FazaRizkyA/ular-tangga-kuis/releases/latest)**:
+
+| Perangkat | File | Cara pasang |
+| --- | --- | --- |
+| Windows 10/11 | `Setup_UlarTanggaKuis_v1.2.exe` | Jalankan, ikuti petunjuk. Tidak butuh internet atau hak admin. |
+| HP/tablet Android 7.0+ | `UlarTanggaKuis_v1.2.apk` | Lihat langkah di bawah. |
+
+**Memasang di HP Android:**
+
+1. Buka halaman Releases di HP, unduh file `.apk`.
+2. Ketuk file yang sudah terunduh. Bila muncul peringatan, izinkan **Instal aplikasi tidak dikenal** untuk browser/File Manager.
+3. Ketuk **Instal**, lalu **Buka**. Game berjalan mendatar (landscape) dan 100% offline.
+
+Di HP: ketuk jawaban dan tombol dadu dengan jari, ketuk kolom nama untuk memunculkan keyboard,
+tombol **Kembali** memunculkan konfirmasi keluar.
+
+APK dibuat otomatis oleh GitHub Actions (`.github/workflows/android.yml`) memakai `buildozer.spec`.
 
 ## Lisensi
 
