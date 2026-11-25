@@ -1,8 +1,8 @@
-venv/
+﻿venv/
 build/
 dist/
 __pycache__/
-*.spec
+UlarTanggaKuis.spec
 aset_sumber/render_dadu/
 .buildozer/
 bin/
