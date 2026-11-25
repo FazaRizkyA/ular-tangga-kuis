@@ -1,0 +1,61 @@
+name: Uji APK di emulator
+
+# Memeriksa APK dari Release: tanda tangan (apksigner), lalu dipasang dan
+# dijalankan di emulator Android 13. Dijalankan manual dari tab Actions.
+on:
+  workflow_dispatch:
+    inputs:
+      versi:
+        description: "Tag release yang diuji"
+        default: "v1.2"
+
+jobs:
+  uji:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Unduh APK dari Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download "${{ inputs.versi }}" -p "*.apk" -R "${{ github.repository }}" -O app.apk
+          ls -la app.apk
+
+      - name: Verifikasi tanda tangan & manifest
+        run: |
+          BT=$(ls -d "$ANDROID_HOME"/build-tools/* | sort -V | tail -1)
+          echo "build-tools: $BT"
+          "$BT/apksigner" verify --verbose --print-certs app.apk || echo "APKSIGNER GAGAL"
+          "$BT/aapt2" dump badging app.apk | head -25 || true
+
+      - name: Aktifkan KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Pasang & jalankan di emulator Android 13
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 33
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: |
+            adb install -r app.apk 2>&1 | tee hasil-instal.txt || true
+            adb shell pm list packages | grep ulartangga || echo "TIDAK TERPASANG"
+            adb shell monkey -p id.sch.smkkrian1.ulartanggakuis -c android.intent.category.LAUNCHER 1 || true
+            sleep 40
+            adb exec-out screencap -p > layar.png || true
+            adb logcat -d > logcat.txt || true
+            grep -iE "python|AndroidRuntime|FATAL|ulartangga|Traceback|Error" logcat.txt | tail -120 || true
+
+      - name: Simpan hasil uji
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: hasil-uji-apk
+          path: |
+            layar.png
+            logcat.txt
+            hasil-instal.txt
