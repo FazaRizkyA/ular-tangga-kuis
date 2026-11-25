@@ -15,7 +15,9 @@ source.exclude_patterns = *.spec,*.iss,*.bat,*.md,LICENSE
 version.regex = VERSI = "(.*)"
 version.filename = %(source.dir)s/config.py
 
-requirements = python3,pygame
+# Versi dikunci: resep pygame (2.1) di python-for-android cocok dengan Python 3.10.
+# Python 3.11+ memindahkan header longintrepr.h sehingga pygame gagal dikompilasi.
+requirements = python3==3.10.10,hostpython3==3.10.10,pygame
 
 icon.filename = %(source.dir)s/assets/icon.png
 presplash.filename = %(source.dir)s/assets/icon.png
@@ -27,13 +29,16 @@ fullscreen = 1
 # Tidak meminta izin apa pun (100% offline, tanpa internet)
 android.permissions =
 
-android.api = 34
+android.api = 33
 android.minapi = 24
+android.ndk = 25b
 android.archs = arm64-v8a, armeabi-v7a
 android.accept_sdk_license = True
 android.allow_backup = True
 
 p4a.bootstrap = sdl2
+# Rilis python-for-android yang teruji dengan Python 3.10 + NDK r25b
+p4a.branch = v2023.09.16
 
 [buildozer]
 log_level = 2
