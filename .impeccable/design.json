@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-25T12:00:00Z",
+  "title": "Design System: Ular Tangga Kuis",
+  "extensions": {
+    "platform": "Native desktop Pygame. Canonical values are RGB tuples in config.py (tampilan.py and main.py still hold a few component literals: Muted Tarp, Field Rim, Night Shadow, Letterbox); hex here is an exact conversion.",
+    "colorMeta": {
+      "terpal":        { "role": "neutral",   "displayName": "Terpal Blue",   "canonical": "rgb(28, 74, 152)",   "tonalRamp": ["#162236", "#213B66", "#27529A", "#2868D4", "#5E8BD8", "#93AEDD", "#C3D0E7", "#EEF1F7"] },
+      "terpal-gelap":  { "role": "neutral",   "displayName": "Terpal Shade",  "canonical": "rgb(18, 50, 108)",   "tonalRamp": ["#152137", "#203967", "#254F9C", "#2564D7", "#5C89DA", "#92ADDE", "#C2D0E8", "#EEF1F7"] },
+      "terpal-terang": { "role": "neutral",   "displayName": "Terpal Light",  "canonical": "rgb(40, 90, 172)",   "tonalRamp": ["#182335", "#243C62", "#2C5495", "#306BCB", "#648DD2", "#97B0D9", "#C5D1E6", "#EEF1F6"] },
+      "terpal-jahit":  { "role": "neutral",   "displayName": "Seam Stitch",   "canonical": "rgb(92, 136, 206)",  "tonalRamp": ["#1A2333", "#293D5E", "#34568E", "#3B6EC1", "#6B90CA", "#9BB1D5", "#C7D2E3", "#EFF1F6"] },
+      "krem":          { "role": "neutral",   "displayName": "Cream",         "canonical": "rgb(247, 241, 226)", "tonalRamp": ["#342C19", "#605027", "#907531", "#C49C37", "#CDB069", "#D6C599", "#E4DCC6", "#F6F4EF"] },
+      "krem-gelap":    { "role": "neutral",   "displayName": "Dark Cream",    "canonical": "rgb(222, 210, 184)", "tonalRamp": ["#2F291E", "#564A31", "#7F6C42", "#AB8E50", "#BBA77B", "#CCBFA4", "#DFD9CB", "#F5F3F0"] },
+      "kuning-pucat":  { "role": "neutral",   "displayName": "Pale Yellow",   "canonical": "rgb(252, 226, 158)", "tonalRamp": ["#3C3010", "#725814", "#AF8412", "#F3B208", "#EEC048", "#EACF85", "#EEE0BC", "#F8F5EC"] },
+      "kuning-cat":    { "role": "primary",   "displayName": "Sign Yellow",   "canonical": "rgb(255, 204, 72)",  "tonalRamp": ["#3E310F", "#755911", "#B4860D", "#FAB501", "#F3C242", "#EED082", "#F0E1BB", "#F9F5EC"] },
+      "kuning-tua":    { "role": "tertiary",  "displayName": "Medal Gold",    "canonical": "rgb(196, 146, 20)",  "tonalRamp": ["#392F13", "#6C551B", "#A57E1C", "#E3AA18", "#E3BA53", "#E4CB8C", "#EBDEC0", "#F7F5ED"] },
+      "merah-cat":     { "role": "primary",   "displayName": "Stall Red",     "canonical": "rgb(204, 36, 52)",   "tonalRamp": ["#371619", "#662027", "#9B2631", "#D52637", "#D95D69", "#DE929A", "#E8C3C6", "#F7EEEF"] },
+      "merah-tua":     { "role": "tertiary",  "displayName": "Ribbon Red",    "canonical": "rgb(130, 18, 32)",   "tonalRamp": ["#381419", "#691E27", "#A02131", "#DC1F37", "#DE5869", "#E18F99", "#E9C1C6", "#F7EDEF"] },
+      "hijau-cat":     { "role": "secondary", "displayName": "Ladder Green",  "canonical": "rgb(24, 132, 78)",   "tonalRamp": ["#163726", "#216643", "#279A61", "#27D47E", "#5ED89B", "#93DDB8", "#C3E7D5", "#EEF7F2"] },
+      "hijau-tua":     { "role": "secondary", "displayName": "Deep Green",    "canonical": "rgb(12, 84, 48)",    "tonalRamp": ["#12301F", "#1A5234", "#1F7547", "#219A5C", "#4FB881", "#8BD2AB", "#C2E6D2", "#EEF7F2"] },
+      "tinta":         { "role": "neutral",   "displayName": "Ink",           "canonical": "rgb(26, 30, 46)",    "tonalRamp": ["#20222D", "#363B51", "#495378", "#5B69A0", "#828CB3", "#A9AFC7", "#CED1DC", "#F0F1F4"] },
+      "tinta-lembut":  { "role": "neutral",   "displayName": "Soft Ink",      "canonical": "rgb(84, 80, 92)",    "tonalRamp": ["#262528", "#424047", "#5F5B66", "#7B7586", "#9995A1", "#B7B4BC", "#D4D3D7", "#F2F2F3"] },
+      "bohlam-nyala":  { "role": "tertiary",  "displayName": "Lit Bulb",      "canonical": "rgb(255, 222, 130)", "tonalRamp": ["#3E310F", "#755B11", "#B4880D", "#FAB901", "#F3C542", "#EED182", "#F0E2BB", "#F9F5EC"] },
+      "bohlam-inti":   { "role": "tertiary",  "displayName": "Bulb Core",     "canonical": "rgb(255, 248, 220)", "tonalRamp": ["#3E340F", "#756111", "#B4930D", "#FAC801", "#F3D042", "#EED882", "#F0E5BB", "#F9F6EC"] },
+      "bohlam-mati":   { "role": "tertiary",  "displayName": "Dead Bulb",     "canonical": "rgb(92, 70, 40)",    "tonalRamp": ["#30281D", "#574630", "#816640", "#AF854D", "#BEA078", "#CDBBA3", "#E0D7CB", "#F5F3F0"] },
+      "oren-jalur":    { "role": "tertiary",  "displayName": "Route Orange",  "canonical": "rgb(255, 132, 28)",  "tonalRamp": ["#3E240F", "#753F11", "#B45A0D", "#FA7301", "#F39342", "#EEB382", "#F0D3BB", "#F9F2EC"] },
+      "kayu":          { "role": "secondary", "displayName": "Plywood",       "canonical": "rgb(186, 120, 60)",  "tonalRamp": ["#32261A", "#5D422A", "#8B5E36", "#BE7B3E", "#C8996E", "#D3B79C", "#E3D4C8", "#F6F2EF"] },
+      "kayu-gelap":    { "role": "secondary", "displayName": "Plywood Edge",  "canonical": "rgb(96, 56, 24)",    "tonalRamp": ["#342518", "#614025", "#935B2E", "#C87533", "#D09566", "#D8B498", "#E5D3C5", "#F6F2EE"] },
+      "ular-badan":    { "role": "secondary", "displayName": "Snake Purple",  "canonical": "rgb(142, 52, 150)",  "tonalRamp": ["#301B32", "#582B5C", "#823889", "#B041BA", "#BF70C6", "#CE9ED2", "#E0C8E2", "#F5EFF5"] },
+      "ular-tua":      { "role": "secondary", "displayName": "Snake Shadow",  "canonical": "rgb(70, 20, 78)",    "tonalRamp": ["#301834", "#592661", "#842F92", "#B334C7", "#C167CF", "#CF98D8", "#E0C5E5", "#F5EEF6"] },
+      "ular-garis":    { "role": "secondary", "displayName": "Snake Band",    "canonical": "rgb(255, 206, 84)",  "tonalRamp": ["#3E300F", "#755911", "#B4840D", "#FAB301", "#F3C142", "#EECF82", "#F0E0BB", "#F9F5EC"] },
+      "pemain-merah":  { "role": "player",    "displayName": "Player Merah",  "canonical": "rgb(214, 40, 56)",   "tonalRamp": ["#361619", "#662127", "#9A2732", "#D32838", "#D75E69", "#DD939A", "#E7C3C6", "#F7EEEF"] },
+      "pemain-biru":   { "role": "player",    "displayName": "Player Biru",   "canonical": "rgb(36, 102, 220)",  "tonalRamp": ["#152137", "#1F3968", "#244F9D", "#2364D8", "#5B89DB", "#91ADDF", "#C2D0E8", "#EEF1F7"] },
+      "pemain-hijau":  { "role": "player",    "displayName": "Player Hijau",  "canonical": "rgb(22, 150, 84)",   "tonalRamp": ["#153826", "#1E6942", "#229F5F", "#21DA7B", "#59DD99", "#90E0B7", "#C1E9D4", "#EDF7F2"] },
+      "pemain-kuning": { "role": "player",    "displayName": "Player Kuning", "canonical": "rgb(240, 178, 16)",  "tonalRamp": ["#3B3012", "#6F5717", "#AA8117", "#ECAF10", "#E9BE4D", "#E7CD89", "#ECE0BE", "#F8F5ED"] },
+      "tombol-mati":   { "role": "neutral",   "displayName": "Muted Tarp",    "canonical": "rgb(40, 60, 104)" },
+      "garis-kolom":   { "role": "neutral",   "displayName": "Field Rim",     "canonical": "rgb(150, 140, 120)" },
+      "bayangan":      { "role": "neutral",   "displayName": "Night Shadow",  "canonical": "rgb(6, 14, 36)" },
+      "letterbox":     { "role": "neutral",   "displayName": "Letterbox",     "canonical": "rgb(8, 16, 34)" }
+    },
+    "typographyMeta": {
+      "display":      { "displayName": "Display",      "purpose": "Stall name sign and winner sign; steps to 40px then 28px when a winner name would not fit.", "source": "Huruf.raksasa (Bungee-Regular.ttf 68)" },
+      "headline":     { "displayName": "Headline",     "purpose": "Screen titles on cream boards, KUIS plaque, rosette numeral.", "source": "Huruf.judul (Bungee 40)" },
+      "title":        { "displayName": "Title",        "purpose": "Winner sign fallback step only.", "source": "Huruf.sub (Bungee 28)" },
+      "numeral":      { "displayName": "Numeral",      "purpose": "Ranking positions on the winner table.", "source": "Huruf.angka (Bungee 26)" },
+      "button":       { "displayName": "Button",       "purpose": "Plank button labels.", "source": "Huruf.tombol (Bungee 22)" },
+      "label":        { "displayName": "Label",        "purpose": "Tile numbers, MULAI and FINIS tile words, panel titles (PAPAN SKOR · <KESULITAN>), toggles, form labels, sound pill, answer letters, timer digits, log serials, marker digits, score pops, dialog titles.", "source": "Huruf.label / Huruf.angka_kecil (Bungee 18)" },
+      "question":     { "displayName": "Question",     "purpose": "Question text, two lines; longer questions drop to Body Strong, three lines max.", "source": "Huruf.soal (Atkinson Hyperlegible Bold 24)" },
+      "body":         { "displayName": "Body",         "purpose": "Rules text on the how-to-play board, 26px pitch, 560px measure.", "source": "Huruf.teks (Atkinson Hyperlegible Regular 20)" },
+      "body-strong":  { "displayName": "Body Strong",  "purpose": "Menu tagline, name fields, ranking names, legend headings.", "source": "Huruf.teks_tebal (Atkinson Hyperlegible Bold 20)" },
+      "small":        { "displayName": "Small",        "purpose": "Helper text (difficulty summary, question count), score lines, log lines, footer, dialog body.", "source": "Huruf.kecil (Atkinson Hyperlegible Regular 18)" },
+      "small-strong": { "displayName": "Small Strong", "purpose": "Answer text, scoreboard names, the question status line (<kategori> · <materi>), errors, newest log line.", "source": "Huruf.kecil_tebal (Atkinson Hyperlegible Bold 18)" }
+    },
+    "shadows": [
+      { "name": "plank",       "value": "0 6px 20px rgba(6, 14, 36, 0.35)", "purpose": "Every painted board and button at rest (bayangan default: offset 0,6, blur 10, alpha 90)." },
+      { "name": "ticket",      "value": "0 3px 10px rgba(6, 14, 36, 0.27)", "purpose": "Karcis log (offset 0,3, blur 5, alpha 70)." },
+      { "name": "counter",     "value": "0 5px 12px rgba(6, 14, 36, 0.31)", "purpose": "The die (offset 0,5, blur 6, alpha 80)." },
+      { "name": "floor",       "value": "ellipse (2 x token radius) x 10px rgba(0, 0, 0, 0.27)", "purpose": "Under every token; narrows as the token lifts." },
+      { "name": "modal-dim",   "value": "rgba(6, 14, 36, 0.63)", "purpose": "Full-canvas dim behind the exit confirmation (alpha 160)." },
+      { "name": "route-dim",   "value": "rgba(18, 30, 60, 0.22)", "purpose": "Off-route tiles while a token moves (alpha 55)." },
+      { "name": "paint-gloss", "value": "3px strip, fill lightened 22%, inset radius/2 from the sides, 3px from top", "purpose": "Gloss line on every painted board." },
+      { "name": "paint-rim",   "value": "3px stroke, fill darkened 35% (4px on the big signs)", "purpose": "Hand-painted rim on every painted board." }
+    ],
+    "motion": [
+      { "name": "ease-out-cubic",   "value": "1 - (1 - t)^3", "purpose": "The single easing curve for slides, tumbles, hops and transits." },
+      { "name": "card-slide",       "value": "0.35s, 40px from the right", "purpose": "New question slides in like a ticket pushed under the booth window." },
+      { "name": "dice-tumble",      "value": "0.8s, 540deg rotation easing to 0, face changes every 0.07s", "purpose": "Dice thrown on the counter." },
+      { "name": "token-hop",        "value": "0.26s per tile, arc lift sin(pi*f) * 22px", "purpose": "Token hops tile by tile with a step sound." },
+      { "name": "prop-transit",     "value": "0.8s, arc lift 30px", "purpose": "Token rides a ladder up or a snake down." },
+      { "name": "route-light",      "value": "lead tile 1.0, then 0.7, 0.4; passed tiles 0.25", "purpose": "Signature: bulbs light ahead of the token." },
+      { "name": "bulb-chase",       "value": "heat = 0.3 + 0.7 * max(0, sin(3t - 0.55i))^2", "purpose": "Menu bulb string." },
+      { "name": "bulb-idle-frame",  "value": "heat = 0.55 * max(0, sin(1.3t - 0.45i))^6", "purpose": "Board frame bulbs, mostly dark with a slow sweep." },
+      { "name": "bulb-active-ring", "value": "heat = 0.85 + 0.15 * sin(6t + 0.8i)", "purpose": "Eight bulbs around the active player's tile." },
+      { "name": "bulb-all",         "value": "heat = 0.85 + 0.15 * sin(9t + 1.7i)", "purpose": "Winner screen string, the prize moment." },
+      { "name": "score-count",      "value": "lerp toward target at rate dt * 8", "purpose": "Scoreboard numbers count rather than jump." },
+      { "name": "score-pop",        "value": "1.2s, rises 24px/s, fades 210 alpha/s", "purpose": "+10 / +5 floating in Ladder Green." },
+      { "name": "hover-lift",       "value": "translateY(-2px), fill lightened 14% (answers 25%)", "purpose": "Hover on planks and answer options; disabled on touch." },
+      { "name": "caret-blink",      "value": "2 Hz", "purpose": "Text field caret." },
+      { "name": "result-hold",      "value": "1.5s", "purpose": "Answer result stays before the turn moves on (bot thinking also 1.5s; bot roll 0.9s; winner screen after 1.4s)." }
+    ],
+    "breakpoints": [
+      { "name": "canvas", "value": "1280x720 logical, scaled uniformly to the window and letterboxed; no reflow" }
+    ],
+    "board": {
+      "grid": "8x8 = 64 tiles of 78px (624px square) at (30, 48), zig-zag from 1 bottom left to 64 top left; 18px bulb frame, 660px outer.",
+      "difficulty": {
+        "Mudah":  { "ladders": 6, "snakes": 3, "botAccuracy": 0.45 },
+        "Sedang": { "ladders": 5, "snakes": 5, "botAccuracy": 0.65, "default": true },
+        "Sulit":  { "ladders": 4, "snakes": 8, "botAccuracy": 0.85 }
+      },
+      "props": "Snake body thickness 10 (menu 17, legend 9), tapering to 38%; ladder rails 22px apart, rungs every 18px, 12px overhang past tile centres.",
+      "source": "config.py KESULITAN, UKURAN_PETAK; papan.py; petak.py"
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Plank Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Sign Yellow price plank for the main forward action (MULAI, MULAI MAIN, MAIN LAGI).",
+      "html": "<button class=\"ds-plank ds-plank-primary\">MULAI</button>",
+      "css": ".ds-plank { font-family: Bungee, Impact, sans-serif; font-size: 22px; height: 56px; min-width: 240px; padding: 0 20px; border-radius: 10px; border: 3px solid; position: relative; cursor: pointer; box-shadow: 0 6px 20px rgba(6,14,36,0.35), inset 0 3px 0 rgba(255,255,255,0.22); transition: transform 0.12s ease-out, filter 0.12s ease-out; } .ds-plank-primary { background: #FFCC48; color: #1A1E2E; border-color: #A5852E; } .ds-plank:hover { transform: translateY(-2px); filter: brightness(1.08); } .ds-plank:focus-visible { outline: 3px solid #1A1E2E; outline-offset: 3px; }"
+    },
+    {
+      "name": "Secondary Plank Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Cream plank for secondary actions (CARA BERMAIN, KELUAR, BATAL, KEMBALI on setup, MENU UTAMA).",
+      "html": "<button class=\"ds-plank2\">CARA BERMAIN</button>",
+      "css": ".ds-plank2 { font-family: Bungee, Impact, sans-serif; font-size: 22px; height: 56px; min-width: 240px; padding: 0 20px; border-radius: 10px; background: #F7F1E2; color: #1A1E2E; border: 3px solid #A09C93; box-shadow: 0 6px 20px rgba(6,14,36,0.35), inset 0 3px 0 rgba(255,255,255,0.22); cursor: pointer; transition: transform 0.12s ease-out, filter 0.12s ease-out; } .ds-plank2:hover { transform: translateY(-2px); filter: brightness(1.04); } .ds-plank2:focus-visible { outline: 3px solid #1A1E2E; outline-offset: 3px; }"
+    },
+    {
+      "name": "Roll / Danger Plank",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Stall Red plank with cream text: KOCOK DADU and YA, KELUAR. Disabled state is Muted Tarp with a label that explains the wait.",
+      "html": "<div style=\"display:flex;gap:10px;flex-wrap:wrap\"><button class=\"ds-roll\">KOCOK DADU</button><button class=\"ds-roll\" disabled>JAWAB SOAL DULU</button></div>",
+      "css": ".ds-roll { font-family: Bungee, Impact, sans-serif; font-size: 22px; height: 56px; padding: 0 28px; border-radius: 10px; background: #CC2434; color: #F7F1E2; border: 3px solid #841722; box-shadow: 0 6px 20px rgba(6,14,36,0.35), inset 0 3px 0 rgba(255,255,255,0.22); cursor: pointer; transition: transform 0.12s ease-out, filter 0.12s ease-out; } .ds-roll:hover:not(:disabled) { transform: translateY(-2px); filter: brightness(1.12); } .ds-roll:focus-visible { outline: 3px solid #FFCC48; outline-offset: 3px; } .ds-roll:disabled { background: #283C68; color: #DED2B8; border-color: #1A2743; cursor: default; }"
+    },
+    {
+      "name": "Setup Toggle",
+      "kind": "chip",
+      "refersTo": "toggle-selected",
+      "description": "44px plank choices in Label type, fitted to the word; selected Stall Red, unselected Dark Cream. Used for mode, player count, KESULITAN and category.",
+      "html": "<div class=\"ds-toggles\"><button class=\"ds-tog\">MUDAH</button><button class=\"ds-tog ds-tog-on\">SEDANG</button><button class=\"ds-tog\">SULIT</button><span class=\"ds-tog-note\">5 tangga · 5 ular</span></div>",
+      "css": ".ds-toggles { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; } .ds-tog { font-family: Bungee, Impact, sans-serif; font-size: 18px; height: 44px; padding: 0 17px; border-radius: 10px; background: #DED2B8; color: #1A1E2E; border: 3px solid #908877; box-shadow: 0 6px 20px rgba(6,14,36,0.35); cursor: pointer; transition: transform 0.12s ease-out; } .ds-tog-on { background: #CC2434; color: #F7F1E2; border-color: #841722; } .ds-tog:hover { transform: translateY(-2px); } .ds-tog:focus-visible { outline: 3px solid #1A1E2E; outline-offset: 3px; } .ds-tog-note { margin-left: 10px; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-size: 18px; color: #54505C; }"
+    },
+    {
+      "name": "Name Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "320x42 cream field with Field Rim; Ink rim on focus, Stall Red rim and message on error, Dark Cream with a BOT tag when read-only.",
+      "html": "<div class=\"ds-fieldrow\"><input class=\"ds-field\" value=\"Pemain 1\"><input class=\"ds-field ds-field-err\" value=\"\"><span class=\"ds-err\">Nama tidak boleh kosong</span></div>",
+      "css": ".ds-fieldrow { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; } .ds-field { width: 320px; max-width: 100%; height: 42px; padding: 0 14px; border-radius: 8px; background: #F7F1E2; color: #1A1E2E; border: 2px solid #968C78; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; font-size: 20px; } .ds-field:focus-visible { outline: none; border: 3px solid #1A1E2E; } .ds-field-err { border: 3px solid #CC2434; } .ds-err { font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; font-size: 18px; color: #CC2434; }"
+    },
+    {
+      "name": "Question Card",
+      "kind": "card",
+      "refersTo": "panel-question",
+      "description": "The ticket booth: cream card, yellow header with turn and timer, a '<kategori> · <materi>' status line, question text, 2x2 answer planks.",
+      "html": "<div class=\"ds-qcard\"><div class=\"ds-qhead\"><span>GILIRAN SEKAR AYU</span><span class=\"ds-qtime\">DETIK <span class=\"ds-timer\">18</span></span></div><p class=\"ds-qstat\">Sejarah Indonesia · Islam</p><p class=\"ds-qtext\">Sultan Agung merupakan raja dari Kerajaan ...</p><div class=\"ds-answers\"><button class=\"ds-ans\"><b>A</b>Mataram Islam</button><button class=\"ds-ans\"><b>B</b>Aceh</button><button class=\"ds-ans\"><b>C</b>Banten</button><button class=\"ds-ans\"><b>D</b>Demak</button></div></div>",
+      "css": ".ds-qcard { width: 560px; max-width: 100%; background: #F7F1E2; border: 3px solid #A09C93; border-radius: 12px; overflow: hidden; box-shadow: 0 6px 20px rgba(6,14,36,0.35); padding-bottom: 14px; } .ds-qhead { height: 44px; background: #FFCC48; border-bottom: 2px solid #A5852E; display: flex; align-items: center; justify-content: space-between; padding: 0 12px 0 18px; font-family: Bungee, Impact, sans-serif; font-size: 18px; color: #1A1E2E; } .ds-qtime { display: flex; align-items: center; gap: 8px; } .ds-timer { width: 36px; height: 36px; border-radius: 50%; background: #1A1E2E; color: #F7F1E2; display: grid; place-items: center; box-shadow: inset 0 0 0 3px #FCE29E; } .ds-qstat { margin: 10px 18px 0; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; font-size: 18px; color: #54505C; } .ds-qtext { margin: 8px 18px 12px; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; font-size: 24px; line-height: 1.25; color: #1A1E2E; } .ds-answers { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 10px; padding: 0 14px; } .ds-ans { display: flex; align-items: center; gap: 10px; height: 46px; padding: 0 10px; border-radius: 9px; background: #FFCC48; color: #1A1E2E; border: 3px solid #A5852E; box-shadow: 0 6px 20px rgba(6,14,36,0.35); font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; font-size: 18px; text-align: left; cursor: pointer; transition: transform 0.12s ease-out, background 0.12s ease-out; } .ds-ans b { width: 28px; height: 28px; border-radius: 50%; background: #1A1E2E; color: #FFCC48; display: grid; place-items: center; font-family: Bungee, Impact, sans-serif; font-weight: 400; flex: none; } .ds-ans:hover { transform: translateY(-2px); background: #FFD875; } .ds-ans:focus-visible { outline: 3px solid #1A1E2E; outline-offset: 2px; }"
+    },
+    {
+      "name": "Scoreboard Plank",
+      "kind": "card",
+      "refersTo": "panel-score",
+      "description": "Stall Red panel titled 'PAPAN SKOR · <KESULITAN>' with a sound pill and 2x2 player rows; the active row is Sign Yellow and raised 3px, idle rows Dark Cream.",
+      "html": "<div class=\"ds-score\"><div class=\"ds-score-top\"><span>PAPAN SKOR · SULIT</span><button class=\"ds-pill\">SUARA: NYALA</button></div><div class=\"ds-rows\"><div class=\"ds-row\"><i style=\"background:#D62838\">1</i><span><b>Andi</b>Petak 37 · 45 poin</span></div><div class=\"ds-row ds-row-on\"><i style=\"background:#2466DC\">2</i><span><b>Sekar Ayu</b>Petak 19 · 20 poin</span></div></div></div>",
+      "css": ".ds-score { width: 560px; max-width: 100%; background: #CC2434; border: 3px solid #841722; border-radius: 12px; padding: 6px 12px 12px; box-shadow: 0 6px 20px rgba(6,14,36,0.35); } .ds-score-top { display: flex; justify-content: space-between; align-items: center; font-family: Bungee, Impact, sans-serif; font-size: 18px; color: #F7F1E2; padding: 2px 4px 8px; } .ds-pill { font-family: Bungee, Impact, sans-serif; font-size: 18px; color: #F7F1E2; background: #A31C29; border: none; border-radius: 6px; width: 150px; height: 24px; cursor: pointer; } .ds-pill:hover { background: #D6505D; } .ds-pill:focus-visible { outline: 2px solid #F7F1E2; outline-offset: 2px; } .ds-rows { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; } .ds-row { display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 10px; border-radius: 8px; background: #DED2B8; color: #54505C; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-size: 18px; } .ds-row b { display: block; font-weight: 700; } .ds-row span { line-height: 1.05; } .ds-row i { font-style: normal; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: #F7F1E2; font-family: Bungee, Impact, sans-serif; font-size: 16px; box-shadow: 0 0 0 4px #F7F1E2, 0 0 0 6px #1A1E2E; flex: none; } .ds-row-on { background: #FFCC48; color: #1A1E2E; transform: translateY(-3px); box-shadow: inset 0 0 0 2px #99792B; }"
+    },
+    {
+      "name": "Karcis Log",
+      "kind": "custom",
+      "refersTo": "karcis-log",
+      "description": "Paper ticket with a serial-number stub, a perforation line and dotted separators; newest line on top in bold Ink.",
+      "html": "<div class=\"ds-karcis\"><div class=\"ds-k-row ds-k-head\"><span>NO.</span><b>RIWAYAT PERMAINAN</b></div><div class=\"ds-k-row ds-k-new\"><span>010</span>Andi salah (kunci B), giliran dilewati</div><div class=\"ds-k-row\"><span>009</span>Rina naik tangga 21→37 (+5)</div><div class=\"ds-k-row\"><span>008</span>Bagus turun ular 46→29</div></div>",
+      "css": ".ds-karcis { width: 560px; max-width: 100%; background: linear-gradient(90deg, #E3DED0 0 64px, #F7F1E2 64px); border: 1px solid #ADA99E; border-radius: 6px; box-shadow: 0 3px 10px rgba(6,14,36,0.27); padding: 4px 14px 8px 0; position: relative; } .ds-karcis::before { content: ''; position: absolute; left: 63px; top: 5px; bottom: 3px; border-left: 4px dotted #1C4A98; } .ds-k-row { display: flex; align-items: center; height: 23px; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-size: 18px; color: #54505C; border-bottom: 1px dashed #DED2B8; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-k-row span { width: 64px; flex: none; text-align: center; font-family: Bungee, Impact, sans-serif; font-size: 16px; margin-right: 16px; } .ds-k-head { height: 28px; border: none; } .ds-k-head b { font-family: Bungee, Impact, sans-serif; font-weight: 400; color: #1A1E2E; } .ds-k-new { color: #1A1E2E; font-weight: 700; }"
+    },
+    {
+      "name": "Board Pieces",
+      "kind": "custom",
+      "refersTo": "token",
+      "description": "78px tiles (MULAI start tile, ladder-foot tile with its marker, FINIS tile), a 15px-radius board token and the cream die with a red single pip.",
+      "html": "<div class=\"ds-pieces\"><div class=\"ds-tile\"><em>MULAI</em><span class=\"ds-token\" style=\"--c:#D62838\">1</span></div><div class=\"ds-tile ds-tile-b ds-tile-up\"><em>4</em><span class=\"ds-mark\">▲20</span></div><div class=\"ds-tile ds-tile-fin\"><em>64</em><strong>FINIS</strong></div><span class=\"ds-token\" style=\"--c:#F0B210;color:#1A1E2E\">4</span><span class=\"ds-die\"><i></i></span></div>",
+      "css": ".ds-pieces { display: flex; align-items: center; gap: 14px; padding: 12px; background: #CC2434; border-radius: 14px; flex-wrap: wrap; } .ds-tile { width: 78px; height: 78px; background: #F7F1E2; outline: 1px solid #CAC5B9; position: relative; font-family: Bungee, Impact, sans-serif; font-size: 18px; color: #1A1E2E; display: grid; place-items: center; } .ds-tile em { font-style: normal; position: absolute; left: 8px; top: 4px; } .ds-tile-b { background: #FCE29E; } .ds-tile-up { background: #EADCA0; } .ds-mark { position: absolute; right: 4px; bottom: 4px; width: 49px; height: 24px; border-radius: 6px; background: #18844E; border: 1px solid #0E4F2E; color: #F7F1E2; font-size: 16px; display: grid; place-items: center; } .ds-tile-fin { background: #CC2434 linear-gradient(45deg, #F7F1E2 25%, transparent 25%, transparent 75%, #F7F1E2 75%) 0 100% / 18px 18px no-repeat; background-size: 18px 18px; color: #F7F1E2; } .ds-tile-fin strong { font-weight: 400; } .ds-token { width: 30px; height: 30px; border-radius: 50%; background: var(--c); color: #F7F1E2; display: grid; place-items: center; font-family: Bungee, Impact, sans-serif; font-size: 18px; box-shadow: 0 0 0 4px #F7F1E2, 0 0 0 6px #1A1E2E, 0 8px 6px -2px rgba(0,0,0,0.27); transition: transform 0.26s cubic-bezier(0.33,1,0.68,1); } .ds-tile .ds-token { transform: translateY(6px); } .ds-token:hover { transform: translateY(-22px); } .ds-die { width: 52px; height: 52px; border-radius: 8px; background: #F7F1E2; border: 3px solid #1A1E2E; display: grid; place-items: center; box-shadow: 0 5px 12px rgba(6,14,36,0.31); } .ds-die i { width: 10px; height: 10px; border-radius: 50%; background: #CC2434; }"
+    },
+    {
+      "name": "Bulb String",
+      "kind": "custom",
+      "refersTo": "board-frame",
+      "description": "Bulbs on a cord over terpal blue: dead, idle and lit states, the light system of the world.",
+      "html": "<div class=\"ds-bulbs\"><i class=\"ds-b\"></i><i class=\"ds-b ds-b-on\"></i><i class=\"ds-b ds-b-on\"></i><i class=\"ds-b\"></i><i class=\"ds-b\"></i><i class=\"ds-b ds-b-on\"></i><i class=\"ds-b\"></i></div>",
+      "css": ".ds-bulbs { display: flex; gap: 22px; padding: 18px 20px 20px; background: #1C4A98; border-top: 2px solid #0E1628; background-image: linear-gradient(#0E1628, #0E1628); background-size: 100% 2px; background-repeat: no-repeat; background-position: 0 8px; } .ds-b { width: 12px; height: 12px; border-radius: 50%; background: #5C4628; box-shadow: 0 0 0 1px #181410; transition: background 0.4s ease-out, box-shadow 0.4s ease-out; } .ds-b-on { background: #FFDE82; box-shadow: 0 0 0 1px #181410, 0 0 14px 6px rgba(255,222,130,0.45), inset -3px -3px 0 0 #FFF8DC; } .ds-bulbs:hover .ds-b { background: #FFDE82; box-shadow: 0 0 0 1px #181410, 0 0 14px 6px rgba(255,222,130,0.45); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Stan Pasar Malam",
+    "overview": "The whole game is a night-market game stall. The ground is a deep terpal-blue tent with stitched seams and soft folds; everything the player touches sits on top of it as a plywood board painted in flat sign-painter colours (red, yellow, cream, green) with a darker hand-painted rim and a thin gloss line along the top. Light is the stall's currency: strings of bulbs hang across the tent and frame the board, and heat is rationed. Most bulbs idle dim; the active player's tile, the route ahead of a moving token, and the winner's moment burn full.\n\nThe board is a lit stall table of 64 painted tiles (8x8), the question is a cream card at the ticket booth, the dice are thrown on the counter, the game log is a stack of paper karcis with a perforated stub and serial numbers. Snakes and ladders are painted props, drawn from primitives rather than imported art: a tapering purple snake with yellow bands and a forked red tongue, a wooden ladder with dark-edged rungs. Three difficulty levels (Mudah, Sedang, Sulit) change how many props stand on the table, never how they are painted. Signs speak in Bungee, a chunky sign-painter display face; questions, answers and data speak in Atkinson Hyperlegible so a student reads them at a glance.\n\nThe canvas is a fixed 1280x720 stage, scaled whole to the window. Density is moderate and game-like: one board on the left, one stacked column of painted planks on the right. The world refuses the cartoon jungle board and the dark neon gamer HUD.",
+    "keyCharacteristics": [
+      "Terpal-blue tent ground, never a flat fill: alternating 214px panels, central fold shading, dashed seam stitches, a darkened ground band at the bottom.",
+      "Every surface is a painted plank: flat fill, 3px darker rim, 3px gloss strip, soft blurred drop shadow.",
+      "Bulbs as the light and state system, with lit, idle and dead states.",
+      "Bungee for signs, labels and numerals; Atkinson Hyperlegible for anything to be read.",
+      "Players are a colour plus a number, always together.",
+      "Motion is physical and eased: cards slide in, dice tumble, tokens hop, bulbs warm and cool.",
+      "Difficulty changes the count of props and the bot's accuracy; the paint, sizes and layout stay the same."
+    ],
+    "rules": [
+      { "name": "The Rationed Heat Rule", "body": "Only three things burn bulbs at full: the eight-bulb ring around the active player's tile, the bulbs on the route ahead of a moving token, and the winner screen's string. Frame bulbs idle at most 0.55 heat with a slow sweep; the menu string chases. If everything is lit, nothing is.", "section": "colors" },
+      { "name": "The Cream Reads Rule", "body": "Anything meant to be read at length (a question, a rule, a log line) sits on Cream or Dark Cream in Ink. Red, yellow and green planks carry short sign words only.", "section": "colors" },
+      { "name": "The Colour Plus Number Rule", "body": "A player is never identified by colour alone; every token carries its player number in Bungee, Ink on Kuning, Cream on the other three.", "section": "colors" },
+      { "name": "The 18px Floor Rule", "body": "No text renders below 18px on the 1280x720 canvas. Shrink by stepping down the ramp, never by inventing a size.", "section": "typography" },
+      { "name": "The Sign and Card Rule", "body": "Bungee is never used for a sentence; Atkinson is never used for a sign word. Headings, buttons, labels and numerals are Bungee; anything with a verb in it is Atkinson.", "section": "typography" },
+      { "name": "The Lift Means Live Rule", "body": "Raised means interactive or current: hovered planks rise 2px, the active scoreboard row rises 3px, a moving token lifts in an arc. Spent things lose their shadow and sit flat.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do draw every surface with the painted-board treatment: flat fill, 3px gloss strip lightened 22%, rim darkened 35%, Plank shadow.",
+      "Do put the tent behind every screen, panels and seams included; never a flat blue fill.",
+      "Do ration bulb heat: full burn only for the active tile ring, the moving route, and the winner screen.",
+      "Do keep a player's colour and number together on every token, in every list.",
+      "Do use Bungee for signs, labels and numerals and Atkinson Hyperlegible for questions, answers, names and sentences, at 18px or larger.",
+      "Do state why a button is disabled in its own label.",
+      "Do ease motion out (cubic) and make game events visible: tumble, hop, slide, count, pop.",
+      "Do let difficulty change only the rules (prop count, bot accuracy) and name it where the game is played (the score header).",
+      "Do add new colour values to config.py and draw props with primitives; no external art."
+    ],
+    "donts": [
+      "Don't use hard, unblurred offset shadows; shadows are soft and fall straight down.",
+      "Don't light every bulb outside the winner screen.",
+      "Don't identify a player by colour alone.",
+      "Don't set a sentence in Bungee or a sign word in Atkinson.",
+      "Don't reuse player colours, Snake Purple or Ladder Green for unrelated UI.",
+      "Don't give a difficulty level its own palette, tile size or prop style.",
+      "Don't reflow the layout per window size; scale the 1280x720 stage whole.",
+      "Don't drift toward a cartoon jungle board or a dark neon gamer HUD."
+    ]
+  }
+}

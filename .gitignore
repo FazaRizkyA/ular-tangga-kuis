@@ -1,0 +1,9 @@
+venv/
+build/
+dist/
+__pycache__/
+*.spec
+aset_sumber/render_dadu/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/mocks/

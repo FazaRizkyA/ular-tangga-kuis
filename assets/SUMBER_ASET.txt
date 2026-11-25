@@ -1,0 +1,26 @@
+Sumber aset Ular Tangga Kuis
+============================
+
+icon.png, ../icon.ico
+  Dibuat sendiri secara prosedural oleh alat/buat_aset.py (pygame.draw + Pillow).
+
+sounds/*.wav (dadu, benar, salah, langkah, naik, turun, menang, klik)
+  Dibuat sendiri secara prosedural oleh alat/buat_aset.py (sintesis gelombang sinus/kotak).
+
+dadu3d/dadu_1.png ... dadu_6.png, dadu3d/info.json
+  Animasi dadu 3D berguling (40 gambar per angka). Model: aset_sumber/dadu.glb (diberikan
+  oleh kelompok). Dirender dengan Blender 4.5 LTS memakai alat/render_dadu_blender.py, lalu
+  disusun menjadi lembar sprite oleh alat/buat_sheet_dadu.py. Bila file ini hilang, game
+  memakai dadu 3D yang digambar dengan kode (dadu3d.py, class Dadu3D).
+
+Papan, ular, tangga, bidak, dadu kecil, bohlam, karcis
+  Tidak memakai file gambar; digambar langsung oleh kode (papan.py, petak.py, tampilan.py).
+
+fonts/Bungee-Regular.ttf
+  Bungee oleh David Jonathan Ross, SIL Open Font License 1.1 (lihat fonts/Bungee-OFL.txt).
+  Diambil dari repositori Google Fonts (github.com/google/fonts, ofl/bungee).
+
+fonts/AtkinsonHyperlegible-Regular.ttf, AtkinsonHyperlegible-Bold.ttf
+  Atkinson Hyperlegible oleh Braille Institute of America, SIL Open Font License 1.1
+  (lihat fonts/AtkinsonHyperlegible-OFL.txt). Diambil dari repositori Google Fonts
+  (github.com/google/fonts, ofl/atkinsonhyperlegible).
