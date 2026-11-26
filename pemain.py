@@ -9,7 +9,7 @@ class Pemain:
 
     # ENCAPSULATION: semua atribut bersifat private (awalan __) dan hanya
     # bisa dibaca lewat @property atau diubah lewat method yang memeriksa
-    # nilainya (setter skor menolak angka negatif, pindah_ke() membatasi 1-36).
+    # nilainya (setter skor menolak angka negatif, pindah_ke() membatasi 1-64).
     """
 
     def __init__(self, nama, warna, nomor):
@@ -58,7 +58,7 @@ class Pemain:
         self.skor = self.__skor + n
 
     def pindah_ke(self, nomor_petak):
-        """Memindahkan bidak; posisi di luar 1-36 ditolak."""
+        """Memindahkan bidak; posisi di luar 1-64 ditolak."""
         if not 1 <= nomor_petak <= JUMLAH_PETAK:
             raise ValueError(f"Petak {nomor_petak} tidak ada di papan")
         self.__posisi = nomor_petak

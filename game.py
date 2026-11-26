@@ -178,7 +178,7 @@ class GameManager:
         return nilai
 
     def gerak(self, langkah):
-        """Menghitung jalur langkah demi langkah; memantul bila lewat 36."""
+        """Menghitung jalur langkah demi langkah; memantul bila lewat 64."""
         pemain = self.pemain_aktif
         posisi = pemain.posisi
         arah = 1

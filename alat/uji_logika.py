@@ -23,6 +23,8 @@ from pemain import Pemain, Bot  # noqa: E402
 from soal import BankSoal  # noqa: E402
 from dadu import Dadu  # noqa: E402
 from papan import Papan  # noqa: E402
+sys.path.insert(0, os.path.join(AKAR, "alat"))
+from cek_tata_letak import masalah as masalah_tata_letak  # noqa: E402
 from game import GameManager, MENJAWAB, HASIL_JAWABAN, MENUNGGU_DADU, BERGERAK, SELESAI  # noqa: E402
 
 gagal = 0
@@ -179,6 +181,8 @@ for nama, aturan in KESULITAN.items():
            and not (awal & ujung) and len(awal) == len(t) + len(u)
            and all(1 < n < JUMLAH_PETAK for n in awal | ujung))
     cek(f"{nama}: letak ular & tangga sah (tidak saling tumpuk)", sah)
+    soal_letak = masalah_tata_letak(t, u)
+    cek(f"{nama}: tangga tidak berdekatan/segaris {soal_letak or ''}", not soal_letak)
 
 R = random.Random(1)
 soal_uji = buat_game()[0].soal_aktif

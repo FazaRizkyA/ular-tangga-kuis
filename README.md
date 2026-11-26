@@ -87,6 +87,7 @@ menu dan installer mengikuti otomatis.
 
 | Versi | Perubahan |
 | --- | --- |
+| 1.3 | Letak tangga ditata ulang: tidak ada lagi tangga yang menempel atau segaris (dulu tampak seperti satu tangga panjang) dan tangga tidak ditindih ular; diperiksa otomatis oleh `alat/cek_tata_letak.py`. APK rilis bertanda tangan v1+v2+v3 |
 | 1.2 | Versi Android (APK) dari kode yang sama: layar penuh landscape, kendali sentuh, keyboard layar; build APK otomatis lewat GitHub Actions |
 | 1.1 | Papan 8 x 8 (64 petak); tingkat kesulitan Mudah/Sedang/Sulit; 300 soal tanpa pengulangan; rumus Matematika ditulis bersusun (pecahan, pangkat, akar); dadu 3D hasil render Blender; tampilan digambar di resolusi layar sehingga tajam saat layar penuh (F11) |
 | 1.0 | Rilis pertama: papan 6 x 6, 45 soal, mode Pass & Play dan vs Bot |
@@ -191,8 +192,8 @@ Semua file ada di halaman **[Releases](https://github.com/FazaRizkyA/ular-tangga
 
 | Perangkat | File | Cara pasang |
 | --- | --- | --- |
-| Windows 10/11 | `Setup_UlarTanggaKuis_v1.2.exe` | Jalankan, ikuti petunjuk. Tidak butuh internet atau hak admin. |
-| HP/tablet Android 7.0+ | `UlarTanggaKuis_v1.2.apk` | Lihat langkah di bawah. |
+| Windows 10/11 | `Setup_UlarTanggaKuis_v1.3.exe` | Jalankan, ikuti petunjuk. Tidak butuh internet atau hak admin. |
+| HP/tablet Android 7.0+ | `UlarTanggaKuis_v1.3.apk` | Lihat langkah di bawah. |
 
 **Memasang di HP Android:**
 

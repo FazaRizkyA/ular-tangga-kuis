@@ -22,7 +22,7 @@ IS_ANDROID = hasattr(sys, "getandroidapilevel") or "ANDROID_ARGUMENT" in os.envi
 
 # ---------------------------------------------------------------- layar
 JUDUL = "Ular Tangga Kuis"
-VERSI = "1.2"   # satu-satunya tempat nomor versi; installer & menu mengikuti
+VERSI = "1.3"   # satu-satunya tempat nomor versi; installer & menu mengikuti
 LEBAR, TINGGI = 1280, 720
 FPS = 60
 
@@ -39,19 +39,21 @@ KOLOM = 8
 # Tingkat kesulitan: makin sulit, makin banyak ular, makin sedikit tangga,
 # dan bot makin pintar (peluang menjawab benar lebih tinggi).
 # tangga: bawah -> atas, ular: kepala -> ekor
+# Letak tangga diperiksa alat/cek_tata_letak.py: antar-tangga berjarak >= 1,5 petak,
+# tidak segaris (tampak seperti satu tangga panjang), dan tidak ditindih ular.
 KESULITAN = {
     "Mudah": {
-        "tangga": {4: 20, 9: 25, 22: 38, 28: 44, 36: 52, 43: 59},
+        "tangga": {7: 24, 16: 32, 22: 36, 40: 56, 43: 60, 47: 63},
         "ular": {30: 12, 49: 33, 62: 45},
         "akurasi_bot": 0.45,
     },
     "Sedang": {
-        "tangga": {4: 20, 13: 29, 26: 42, 36: 52, 43: 59},
+        "tangga": {6: 21, 9: 25, 19: 35, 33: 49, 44: 61},
         "ular": {18: 3, 34: 16, 47: 31, 56: 38, 63: 45},
         "akurasi_bot": 0.65,
     },
     "Sulit": {
-        "tangga": {6: 22, 21: 37, 35: 51, 42: 58},
+        "tangga": {4: 19, 11: 28, 24: 40, 33: 49},
         "ular": {16: 3, 27: 10, 32: 15, 46: 29, 53: 34, 60: 41, 62: 44, 63: 47},
         "akurasi_bot": 0.85,
     },
