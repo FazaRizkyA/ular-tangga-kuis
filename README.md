@@ -10,7 +10,8 @@
   <a href="https://github.com/FazaRizkyA/ular-tangga-kuis/releases/latest"><b>⬇ Unduh untuk Windows &amp; Android</b></a>
 </p>
 
-Game papan edukasi ular tangga berbasis kuis, 100% offline, dibuat dengan Python 3.12 + Pygame.
+Game papan edukasi ular tangga berbasis kuis untuk **Windows dan Android**, 100% offline, dibuat dengan Python 3.12 + Pygame.
+Versi terbaru: **1.3**.
 Project Sumatif Akhir Semester Ganjil, SMK Krian 1 Sidoarjo 2026/2027 (XI PBTG).
 
 Setiap giliran dimulai dengan satu soal pilihan ganda (waktu 30 detik). Jawaban benar memberi +10 poin
@@ -24,6 +25,9 @@ Papan 8 x 8 = 64 petak dengan tiga tingkat kesulitan:
 | Mudah | 6 | 3 | sekitar 45% |
 | Sedang | 5 | 5 | sekitar 65% |
 | Sulit | 4 | 8 | sekitar 85% |
+
+Letak tangga diperiksa otomatis (`alat/cek_tata_letak.py`): antar-tangga berjarak minimal 1,5 petak,
+tidak segaris sehingga tidak tampak seperti satu tangga panjang, dan tidak ditindih ular.
 
 Soal yang sudah keluar tidak akan muncul lagi, termasuk saat **Main Lagi**. Bila soal kategori terpilih habis,
 soal diambil dari kategori lain; baru setelah ke-300 soal keluar semua, bank soal diacak ulang.
