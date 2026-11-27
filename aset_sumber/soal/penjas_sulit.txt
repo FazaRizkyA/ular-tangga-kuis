@@ -1,0 +1,101 @@
+# Penjas Orkes - tingkat Sulit. Format: materi|pertanyaan|jawaban benar|pengecoh 1|pengecoh 2|pengecoh 3
+Renang|Setelah start dan pembalikan pada gaya dada, perenang boleh melakukan satu tendangan kupu-kupu selama ...|Tarikan tangan pertama|Seluruh fase meluncur tanpa batas|Tiga tarikan tangan pertama|Tidak boleh sama sekali
+Renang|Pada gaya bebas, punggung, dan kupu-kupu, perenang boleh berada di bawah air setelah start paling jauh ...|15 meter|5 meter|25 meter|10 meter
+Renang|Pada nomor 200 meter gaya ganti perorangan, setiap gaya ditempuh sejauh ...|50 meter|25 meter|100 meter|200 meter
+Renang|Pada nomor estafet 4 x 100 meter gaya ganti, perenang kedua berenang dengan gaya ...|Dada|Punggung|Kupu-kupu|Bebas
+Renang|Bagian gaya bebas pada nomor gaya ganti TIDAK boleh menggunakan gaya ...|Punggung, dada, atau kupu-kupu|Crawl|Gaya bebas apa pun|Rangkak depan
+Renang|Pada lomba estafet, perenang berikutnya boleh lepas dari balok start setelah ...|Perenang sebelumnya menyentuh dinding|Wasit meniup peluit kedua|Perenang sebelumnya 5 meter dari dinding|Penonton bersorak
+Renang|Hukum fisika yang menjelaskan mengapa tubuh dapat mengapung di air adalah hukum ...|Archimedes|Newton I|Ohm|Kepler
+Renang|Tubuh perenang terdorong ke depan karena tangan mendorong air ke belakang. Ini sesuai hukum Newton ...|III (aksi-reaksi)|I (kelembaman)|Gravitasi|Hukum Hooke
+Renang|Fase kayuhan lengan saat tangan menarik air ke belakang di bawah tubuh disebut fase ...|Tarikan (pull)|Pemulihan (recovery)|Meluncur (glide)|Start
+Renang|Fase saat lengan dikembalikan ke depan di atas permukaan air pada gaya bebas disebut ...|Recovery (pemulihan)|Pull (tarikan)|Push (dorongan)|Catch (tangkapan)
+Renang|Jumlah medali emas Olimpiade yang diraih perenang Michael Phelps sepanjang kariernya adalah ...|23|18|28|15
+Renang|Papan sentuh di dinding akhir kolam lomba berfungsi untuk ...|Mencatat waktu secara elektronik|Menahan ombak|Menandai lintasan|Menghangatkan air
+Renang|Suhu air kolam lomba renang menurut World Aquatics berkisar ...|25-28 °C|15-18 °C|32-35 °C|10-12 °C
+Renang|Dalam satu siklus lengan gaya kupu-kupu, umumnya dilakukan ... tendangan kaki.|2|1|4|6
+Renang|Pernapasan bilateral pada gaya bebas berarti ...|Napas bergantian ke kanan dan kiri|Napas hanya ke kanan|Menahan napas sepanjang lomba|Bernapas lewat hidung saja
+Renang|Pola napas bilateral gaya bebas umumnya dilakukan setiap ... kayuhan lengan.|3|2|4|1
+Renang|Perenang gaya punggung mengetahui dinding sudah dekat dengan melihat ...|Bendera penanda 5 meter|Garis dasar kolam|Papan skor|Lampu start
+Renang|Latihan interval dalam renang adalah ...|Beberapa set dengan istirahat teratur|Berenang tanpa henti selama 2 jam|Latihan di darat saja|Berenang sambil bermain bola
+Renang|Komponen kebugaran utama yang dilatih renang jarak jauh adalah ...|Daya tahan jantung dan paru|Kelentukan jari|Kecepatan reaksi mata|Kekuatan genggaman
+Renang|Fase catch pada kayuhan renang adalah saat ...|Tangan mulai menekan air|Tangan keluar dari air|Kepala menoleh mengambil napas|Kaki menolak dinding
+Renang|Tendangan lumba-lumba di bawah air setelah start boleh dilakukan berkali-kali pada gaya ...|Bebas, punggung, dan kupu-kupu|Dada saja|Punggung saja|Tidak boleh di gaya apa pun
+Renang|Kolam renang berukuran panjang 25 meter disebut kolam ...|Pendek (short course)|Panjang (long course)|Olimpiade|Perairan terbuka
+Renang|Pertolongan pertama bagi korban tenggelam yang tidak bernapas adalah ...|Resusitasi jantung paru (RJP)|Memberi minum|Membiarkannya tidur|Menggoyang badannya saja
+Renang|Penolong mendekati korban tenggelam dari belakang agar ...|Penolong tidak dicengkeram korban|Penolong tidak basah|Korban dapat melihat penolong|Penolong lebih cepat lelah
+Renang|Hambatan air paling kecil terjadi bila tubuh perenang ...|Lurus mendatar sejajar permukaan air|Tegak lurus|Membungkuk|Kaki tenggelam jauh ke bawah
+Renang|Pada start gaya punggung, kedua tangan perenang memegang ...|Pegangan pada balok start|Tali lintasan|Tepi lantai kolam|Kaki sendiri
+Renang|Catatan waktu lomba renang internasional dihitung hingga ketelitian ... detik.|0,01|0,1|1|0,001
+Renang|Pada nomor estafet 4 x 200 meter gaya bebas, setiap perenang menempuh ...|200 meter|50 meter|100 meter|800 meter
+Renang|Contoh latihan kekuatan otot lengan di darat bagi perenang adalah ...|Push-up|Lari zig-zag|Lompat tali|Sit and reach
+Renang|Kram otot saat berenang paling sering disebabkan oleh ...|Kelelahan dan kurang pemanasan|Air kolam terlalu jernih|Memakai kacamata renang|Berenang di lintasan tengah
+Renang|Di kolam 50 meter, nomor 1.500 meter gaya bebas ditempuh sebanyak ... kali panjang kolam.|30|15|60|20
+Renang|Pada nomor 800 meter di kolam 25 meter, perenang melakukan pembalikan sebanyak ... kali.|31|32|16|30
+Sepak bola|Pemain dalam posisi offside bila saat bola dimainkan rekannya ia lebih dekat ke garis gawang lawan daripada bola dan ...|Pemain lawan kedua terakhir|Semua pemain lawan|Penjaga gawang saja|Wasit
+Sepak bola|Pemain tidak dapat terkena offside bila menerima bola langsung dari ...|Lemparan ke dalam|Tendangan bebas tidak langsung|Umpan terobosan teman|Sundulan teman
+Sepak bola|Tendangan bebas tidak langsung berarti ...|Bola harus menyentuh pemain lain dulu|Bola boleh langsung ditendang menjadi gol|Ditendang dari titik penalti|Hanya boleh dilakukan penjaga gawang
+Sepak bola|Wasit menandai tendangan bebas tidak langsung dengan ...|Mengangkat satu tangan ke atas|Menunjuk titik penalti|Mengibarkan bendera|Meniup peluit tiga kali
+Sepak bola|Saat tendangan bebas, pemain lawan harus berjarak minimal ... dari bola.|9,15 meter|5 meter|11 meter|16,5 meter
+Sepak bola|Daerah penalti berukuran ... dari garis gawang ke arah lapangan.|16,5 meter|11 meter|5,5 meter|9,15 meter
+Sepak bola|Gawang sepak bola berukuran lebar ... dan tinggi 2,44 meter.|7,32 meter|5 meter|8 meter|6,5 meter
+Sepak bola|Jari-jari lingkaran tengah lapangan sepak bola adalah ...|9,15 meter|11 meter|5,5 meter|16,5 meter
+Sepak bola|Daerah gawang (kotak kecil) diukur ... dari bagian dalam tiang gawang.|5,5 meter|9,15 meter|16,5 meter|11 meter
+Sepak bola|Pada adu penalti, setiap tim mula-mula menendang sebanyak ...|5 kali|3 kali|11 kali|7 kali
+Sepak bola|Saat tendangan penalti, penjaga gawang harus ...|Sebagian kaki tetap di garis gawang|Berdiri di titik penalti|Berada di tepi kotak penalti|Berdiri di belakang gawang
+Sepak bola|Formasi 4-4-2 berarti ...|4 bek, 4 gelandang, 2 penyerang|4 penyerang, 4 gelandang, 2 bek|2 bek, 4 gelandang, 4 penyerang|4 bek, 2 gelandang, 4 penyerang
+Sepak bola|Berat bola ukuran 5 saat pertandingan dimulai menurut aturan adalah ...|410-450 gram|200-250 gram|600-650 gram|300-350 gram
+Sepak bola|Keliling bola sepak ukuran 5 adalah ...|68-70 cm|50-52 cm|80-82 cm|60-62 cm
+Sepak bola|Piala Dunia FIFA 2022 diselenggarakan di ...|Qatar|Rusia|Brasil|Jepang
+Sepak bola|Juara Piala Dunia FIFA 2022 adalah ...|Argentina|Prancis|Brasil|Kroasia
+Sepak bola|Negara dengan gelar juara Piala Dunia FIFA terbanyak adalah ...|Brasil|Jerman|Italia|Argentina
+Sepak bola|Indonesia menjadi tuan rumah Piala Dunia U-17 FIFA pada tahun ...|2023|2019|2021|2025
+Sepak bola|Pemain bertahan yang berdiri paling belakang di antara bek dan bertugas menyapu bola disebut ...|Libero (sweeper)|Winger|Striker|Playmaker
+Sepak bola|Pemain yang beroperasi di sisi kanan atau kiri lapangan untuk menyerang disebut ...|Winger|Libero|Kiper|Stopper
+Sepak bola|Gerakan menipu lawan dengan pura-pura ke satu arah disebut ...|Gerak tipu (feinting)|Tackling|Heading|Volley
+Sepak bola|Menendang bola yang masih melayang sebelum menyentuh tanah disebut ...|Volley|Dribbling|Chip|Throw-in
+Sepak bola|Teknik mencungkil bola agar melambung melewati penjaga gawang disebut ...|Chip|Volley|Sliding|Stopping
+Sepak bola|Tekel keras yang membahayakan keselamatan lawan dapat dihukum ...|Kartu merah|Lemparan ke dalam|Tendangan gawang|Tanpa hukuman
+Sepak bola|Pelanggaran berhukuman tendangan bebas langsung yang dilakukan pemain bertahan di kotak penaltinya sendiri berakibat ...|Tendangan penalti|Tendangan sudut|Lemparan ke dalam|Tendangan gawang
+Sepak bola|Jika setelah 5 tendangan adu penalti skor masih sama, adu penalti dilanjutkan dengan ...|Sudden death (satu per satu)|Undian koin|Pertandingan ulang|Babak tambahan 30 menit
+Sepak bola|Pelatih asal Korea Selatan yang membawa timnas Indonesia lolos ke Piala Asia 2023 adalah ...|Shin Tae-yong|Park Hang-seo|Kim Pan-gon|Luis Milla
+Sepak bola|Organisasi sepak bola tingkat Asia adalah ...|AFC|UEFA|CONMEBOL|CAF
+Sepak bola|Organisasi sepak bola tingkat Eropa adalah ...|UEFA|AFC|CONCACAF|OFC
+Sepak bola|Kompetisi antarklub paling bergengsi di Eropa adalah ...|Liga Champions UEFA|Piala AFF|Copa America|Piala Asia
+Sepak bola|Ketua umum pertama PSSI adalah ...|Soeratin Sosrosoegondo|Soekarno|Dr. Soetomo|Ki Hajar Dewantara
+Sepak bola|Komponen fisik utama agar pemain sepak bola mampu bermain 90 menit adalah ...|Daya tahan|Kelentukan|Keseimbangan statis|Kekuatan jari
+Sepak bola|Latihan shuttle run terutama bertujuan meningkatkan ...|Kelincahan|Kelentukan|Kekuatan lengan|Daya tahan otot perut
+Sepak bola|Gol yang dicetak langsung dari lemparan ke dalam tanpa disentuh pemain lain ...|Tidak sah|Sah|Diulang|Dihitung dua gol
+Bulu tangkis|Panjang lapangan bulu tangkis adalah ...|13,40 meter|12 meter|15,24 meter|10 meter
+Bulu tangkis|Lebar lapangan bulu tangkis untuk nomor ganda adalah ...|6,10 meter|5,18 meter|7 meter|6,70 meter
+Bulu tangkis|Lebar lapangan bulu tangkis untuk nomor tunggal adalah ...|5,18 meter|6,10 meter|4,50 meter|5,50 meter
+Bulu tangkis|Tinggi net bulu tangkis pada tiang di tepi lapangan adalah ...|1,55 meter|1,524 meter|1,80 meter|1,20 meter
+Bulu tangkis|Garis servis pendek berjarak ... dari net.|1,98 meter|0,76 meter|2,50 meter|1,50 meter
+Bulu tangkis|Pada nomor ganda, garis servis panjang berada ... di depan garis belakang.|0,76 meter|1,98 meter|0,50 meter|1 meter
+Bulu tangkis|Servis yang mengarahkan kok tinggi dan jauh ke belakang lapangan lawan disebut servis ...|Panjang|Pendek|Netting|Smash
+Bulu tangkis|Pukulan pura-pura smash yang ternyata dropshot dipakai untuk ...|Mengecoh lawan|Menambah poin otomatis|Mengulang servis|Mengganti kok
+Bulu tangkis|Pemain yang memukul kok dua kali berturut-turut dalam satu pukulan dinyatakan ...|Melakukan kesalahan (fault)|Mendapat poin|Mengulang reli|Mendapat kartu hitam
+Bulu tangkis|Kartu hitam dalam pertandingan bulu tangkis berarti pemain ...|Didiskualifikasi|Mendapat peringatan|Kehilangan satu poin|Boleh mengganti raket
+Bulu tangkis|Kartu kuning dalam pertandingan bulu tangkis diberikan sebagai ...|Peringatan|Diskualifikasi|Poin tambahan|Tanda pergantian pemain
+Bulu tangkis|Pukulan mendorong kok di depan net dengan cepat ke arah lapangan lawan disebut ...|Push|Lob|Clear|Smash
+Bulu tangkis|Pukulan lob bertahan yang tinggi dan jauh berguna untuk ...|Memberi waktu kembali ke posisi tengah|Mencetak poin langsung|Mengecoh di depan net|Memulai servis
+Bulu tangkis|Posisi siap (ready position) pemain tunggal berada di ... lapangan.|Tengah|Pojok depan|Pojok belakang|Luar garis
+Bulu tangkis|Saat menyerang, pasangan ganda umumnya membentuk posisi ...|Depan-belakang|Kiri-kanan sejajar|Keduanya di depan net|Keduanya di belakang
+Bulu tangkis|Saat bertahan, pasangan ganda umumnya membentuk posisi ...|Kiri-kanan sejajar|Depan-belakang|Keduanya di depan net|Satu di luar lapangan
+Bulu tangkis|Berat kok standar menurut aturan BWF adalah sekitar ...|4,74-5,50 gram|10-12 gram|1-2 gram|20-25 gram
+Bulu tangkis|Pebulu tangkis Indonesia peraih medali perunggu tunggal putri Olimpiade Paris 2024 adalah ...|Gregoria Mariska Tunjung|Putri Kusuma Wardani|Susi Susanti|Mia Audina
+Bulu tangkis|Sistem skor reli 21 poin mulai diberlakukan resmi oleh BWF pada tahun ...|2006|1992|2016|1980
+Bulu tangkis|Sebelum 2006, satu game tunggal putra dimainkan sampai ... poin dengan sistem pindah bola.|15|21|11|25
+Bulu tangkis|Piala Thomas pertama kali diperebutkan pada tahun ...|1949|1957|1962|1984
+Bulu tangkis|Indonesia menjuarai Piala Thomas sebanyak ... kali, terbanyak di dunia.|14|10|8|20
+Bulu tangkis|Piala Sudirman dinamai dari tokoh bulu tangkis Indonesia ...|Dick Sudirman|Jenderal Soedirman|Rudy Hartono|Tan Joe Hok
+Bulu tangkis|Smash yang dilakukan sambil melompat disebut ...|Jumping smash|Netting|Drive|Push
+Bulu tangkis|Langkah geser (chasse) dalam footwork bulu tangkis dipakai untuk ...|Bergerak menyamping dengan cepat|Melompat smash|Melakukan servis|Mengambil napas
+Bulu tangkis|Pada nomor tunggal, pemain melakukan servis dari petak kiri ketika skornya ...|Ganjil|Genap|Nol|Sama dengan lawan
+Bulu tangkis|Pada nomor ganda, pasangan pelaku servis bertukar petak servis ketika ...|Mereka memenangi reli saat servis|Mereka kalah reli|Setiap 5 poin|Setiap pergantian game
+Bulu tangkis|Komponen biomotor utama untuk melakukan smash yang keras adalah ...|Power (daya ledak)|Kelentukan|Keseimbangan statis|Daya tahan aerobik
+Bulu tangkis|Latihan shadow badminton adalah ...|Latihan gerak kaki dan ayunan tanpa kok|Bermain di malam hari|Latihan dengan dua kok|Menonton rekaman pertandingan
+Bulu tangkis|Jika kok menyentuh langit-langit gedung saat dimainkan, keputusannya adalah ...|Kesalahan (fault)|Reli diulang|Poin bagi pemukul|Permainan dilanjutkan
+Bulu tangkis|Raket boleh melewati net ke area lawan hanya jika ...|Ayunan lanjutan setelah memukul|Saat servis|Lawan sedang lengah|Kok sudah menyentuh lantai
+Bulu tangkis|Pebulu tangkis Indonesia yang menjadi juara dunia tunggal putra tahun 2005 adalah ...|Taufik Hidayat|Hendra Setiawan|Sony Dwi Kuncoro|Joko Supriyanto
+Bulu tangkis|Pasangan ganda putra Indonesia juara dunia 2019 yang dijuluki The Daddies adalah ...|Mohammad Ahsan / Hendra Setiawan|Kevin Sanjaya / Marcus Gideon|Fajar Alfian / Rian Ardianto|Tontowi Ahmad / Liliyana Natsir
+Bulu tangkis|Pada servis, kok harus dipukul pertama kali pada bagian ...|Kepala gabus kok|Bulu kok|Tali pengikat|Sisi samping bulu

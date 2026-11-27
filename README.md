@@ -11,7 +11,7 @@
 </p>
 
 Game papan edukasi ular tangga berbasis kuis untuk **Windows dan Android**, 100% offline, dibuat dengan Python 3.12 + Pygame.
-Versi terbaru: **1.3**.
+Versi terbaru: **1.4**.
 Project Sumatif Akhir Semester Ganjil, SMK Krian 1 Sidoarjo 2026/2027 (XI PBTG).
 
 Setiap giliran dimulai dengan satu soal pilihan ganda (waktu 30 detik). Jawaban benar memberi +10 poin
@@ -29,8 +29,18 @@ Papan 8 x 8 = 64 petak dengan tiga tingkat kesulitan:
 Letak tangga diperiksa otomatis (`alat/cek_tata_letak.py`): antar-tangga berjarak minimal 1,5 petak,
 tidak segaris sehingga tidak tampak seperti satu tangga panjang, dan tidak ditindih ular.
 
-Soal yang sudah keluar tidak akan muncul lagi, termasuk saat **Main Lagi**. Bila soal kategori terpilih habis,
-soal diambil dari kategori lain; baru setelah ke-300 soal keluar semua, bank soal diacak ulang.
+Bank soal berisi **900 soal**: setiap tingkat kesulitan punya soal sendiri, **100 soal per mapel**
+(Matematika, Penjas Orkes, Sejarah Indonesia), jadi kategori **Campuran = 300 soal** per tingkat.
+Soal Mudah berisi hal dasar, soal Sulit menuntut hitungan bertahap atau fakta yang lebih rinci.
+
+| Mapel | Materi |
+| --- | --- |
+| Matematika | bunga tunggal & majemuk, fungsi komposisi, fungsi invers, mean/median/modus (25 soal per materi tiap tingkat) |
+| Penjas Orkes | renang, sepak bola, bulu tangkis |
+| Sejarah Indonesia | praaksara, Hindu-Buddha, Islam, kolonial, pergerakan, Jepang, proklamasi, revolusi, Orde Lama, Orde Baru, Reformasi |
+
+Soal yang sudah keluar tidak akan muncul lagi, termasuk saat **Main Lagi**. Bila soal mapel terpilih habis,
+soal diambil dari mapel lain pada tingkat yang sama; baru setelah ke-300 soal tingkat itu keluar semua, soal diacak ulang.
 
 ## Tangkapan layar
 
@@ -73,7 +83,11 @@ Kontrol: klik mouse, atau keyboard **A-D / 1-4** untuk menjawab, **Spasi** untuk
 **M** suara nyala/mati, **F11** atau **Alt+Enter** layar penuh, **Esc** keluar (dengan konfirmasi).
 
 Rumus di `soal.json` memakai tanda sederhana yang digambar oleh `rumus.py`: `\frac{a}{b}` untuk pecahan,
-`x^{2}` untuk pangkat, `√{48}` untuk akar, dan `∘` untuk komposisi fungsi.
+`x^{2}` untuk pangkat, `f^{-1}(x)` untuk invers, `√{48}` untuk akar, dan `∘` untuk komposisi fungsi.
+
+`soal.json` disusun oleh `alat/buat_soal.py`: soal Matematika dibuat `alat/buat_soal_mtk.py` (kunci jawaban
+dihitung program, pengecoh dari kesalahan umum siswa), soal Penjas dan Sejarah Mudah/Sulit ditulis di
+`aset_sumber/soal/*.txt`. Letak kunci A-D diseimbangkan, 25 per huruf untuk setiap mapel dan tingkat.
 
 ## Cara build installer
 
@@ -91,6 +105,7 @@ menu dan installer mengikuti otomatis.
 
 | Versi | Perubahan |
 | --- | --- |
+| 1.4 | Bank soal menjadi 900 soal: tiap kesulitan punya 100 soal per mapel (Campuran 300). Matematika diganti ke materi bunga tunggal & majemuk, fungsi komposisi, fungsi invers, dan mean/median/modus; soal Penjas dan Sejarah tingkat Mudah dan Sulit ditambahkan |
 | 1.3 | Letak tangga ditata ulang: tidak ada lagi tangga yang menempel atau segaris (dulu tampak seperti satu tangga panjang) dan tangga tidak ditindih ular; diperiksa otomatis oleh `alat/cek_tata_letak.py`. APK rilis bertanda tangan v1+v2+v3 |
 | 1.2 | Versi Android (APK) dari kode yang sama: layar penuh landscape, kendali sentuh, keyboard layar; build APK otomatis lewat GitHub Actions |
 | 1.1 | Papan 8 x 8 (64 petak); tingkat kesulitan Mudah/Sedang/Sulit; 300 soal tanpa pengulangan; rumus Matematika ditulis bersusun (pecahan, pangkat, akar); dadu 3D hasil render Blender; tampilan digambar di resolusi layar sehingga tajam saat layar penuh (F11) |
@@ -112,7 +127,7 @@ ular-tangga-kuis/
 ├── tampilan.py              # komponen gambar: papan cat, bohlam, tombol, karcis
 ├── kanvas.py                # lapisan gambar di resolusi asli layar
 ├── config.py                # konstanta, kesulitan, palet warna, VERSI
-├── soal.json                # bank soal: 300 soal (100 per kategori)
+├── soal.json                # bank soal: 900 soal (3 kesulitan x 3 mapel x 100)
 ├── icon.ico                 # ikon aplikasi Windows
 ├── requirements.txt         # pygame, pyinstaller, pillow
 ├── build.bat                # build .exe + installer Windows
@@ -126,9 +141,13 @@ ular-tangga-kuis/
 │   ├── icon.png
 │   └── SUMBER_ASET.txt      # asal-usul setiap aset
 ├── aset_sumber/
-│   └── dadu.glb             # model 3D dadu (bahan render Blender)
+│   ├── dadu.glb             # model 3D dadu (bahan render Blender)
+│   └── soal/                # naskah soal Penjas & Sejarah tingkat Mudah dan Sulit
 ├── alat/                    # alat pengembang (tidak ikut installer)
-│   ├── uji_logika.py        # 44 uji otomatis
+│   ├── uji_logika.py        # 65 uji otomatis
+│   ├── cek_tata_letak.py    # pemeriksa letak tangga & ular
+│   ├── buat_soal.py         # menyusun soal.json (900 soal)
+│   ├── buat_soal_mtk.py     # pembuat 300 soal Matematika
 │   ├── uji_simulasi.py      # 12 permainan penuh tanpa layar
 │   ├── tangkap_layar.py     # tangkapan layar semua layar
 │   ├── buat_aset.py         # ikon & efek suara
@@ -156,7 +175,7 @@ ular-tangga-kuis/
 | `dadu3d.py` | Class `DaduRender`: animasi dadu 3D hasil render Blender dari `aset_sumber/dadu.glb`; class `Dadu3D`: dadu kubus buatan kode sebagai cadangan |
 | `aset_sumber/` | Model `dadu.glb` (tidak ikut installer). Render ulang: `D:\Blender\...\blender.exe -b -P alat\render_dadu_blender.py`, lalu `python alat\buat_sheet_dadu.py` |
 | `config.py` | Konstanta, palet warna, `resource_path()` |
-| `soal.json` | 300 soal: 100 Matematika (aljabar dasar, eksponen, pangkat, akar, fungsi komposisi), 100 Penjas Orkes (renang, sepak bola, bulu tangkis), 100 Sejarah Indonesia |
+| `soal.json` | 900 soal: untuk tiap kesulitan (Mudah, Sedang, Sulit) 100 Matematika (bunga tunggal & majemuk, fungsi komposisi, fungsi invers, mean/median/modus), 100 Penjas Orkes (renang, sepak bola, bulu tangkis), 100 Sejarah Indonesia |
 | `icon.ico`, `assets/` | Ikon, font (.ttf), efek suara (.wav) |
 | `alat/` | Alat pengembang: uji logika, pembuat aset, penangkap layar (tidak ikut installer) |
 
@@ -183,7 +202,7 @@ saat bermain ditangkap di loop utama dan aplikasi kembali ke Menu Utama dengan p
 ## Pengujian
 
 `venv\Scripts\python alat\uji_logika.py` menguji otomatis kasus T2, T4-T12, T14 dari PRD, aturan kesulitan, soal tidak berulang,
-dan apakah semua soal muat di layar (44 pemeriksaan). `alat\uji_simulasi.py` memainkan 12 permainan penuh
+jumlah soal per kesulitan dan mapel, letak tangga, dan apakah semua soal muat di layar (65 pemeriksaan). `alat\uji_simulasi.py` memainkan 12 permainan penuh
 tanpa layar di semua mode dan kesulitan. T1, T3, T13 diuji manual lewat aplikasi dan installer.
 
 ## Sumber aset
@@ -196,8 +215,8 @@ Semua file ada di halaman **[Releases](https://github.com/FazaRizkyA/ular-tangga
 
 | Perangkat | File | Cara pasang |
 | --- | --- | --- |
-| Windows 10/11 | `Setup_UlarTanggaKuis_v1.3.exe` | Jalankan, ikuti petunjuk. Tidak butuh internet atau hak admin. |
-| HP/tablet Android 7.0+ | `UlarTanggaKuis_v1.3.apk` | Lihat langkah di bawah. |
+| Windows 10/11 | `Setup_UlarTanggaKuis_v1.4.exe` | Jalankan, ikuti petunjuk. Tidak butuh internet atau hak admin. |
+| HP/tablet Android 7.0+ | `UlarTanggaKuis_v1.4.apk` | Lihat langkah di bawah. |
 
 **Memasang di HP Android:**
 

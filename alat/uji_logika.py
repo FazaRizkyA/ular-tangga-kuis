@@ -71,18 +71,23 @@ def salah_dari(gm):
 # ================================================================ bank soal
 bank = BankSoal()
 ok, pesan = bank.muat("soal.json")
-cek(f"soal.json dimuat ({pesan})", ok and bank.jumlah() == 300 and bank.jumlah_dilewati == 0)
+cek(f"soal.json dimuat ({pesan})", ok and bank.jumlah() == 900 and bank.jumlah_dilewati == 0)
 data = json.load(open("soal.json", encoding="utf-8"))
-for kat in KATEGORI:
-    isi = [s for s in data if s["kategori"] == kat]
-    kunci = Counter(s["kunci"] for s in isi)
-    cek(f"{kat}: 100 soal, kunci A-D seimbang {dict(kunci)}", len(isi) == 100 and set(kunci.values()) == {25})
+for tingkat in KESULITAN:
+    cek(f"{tingkat}: Campuran 300 soal", bank.jumlah("Campuran", tingkat) == 300)
+    for kat in KATEGORI:
+        isi = [s for s in data if s["kategori"] == kat and s["tingkat"] == tingkat]
+        kunci = Counter(s["kunci"] for s in isi)
+        cek(f"{tingkat} {kat}: 100 soal, kunci A-D seimbang {dict(kunci)}",
+            len(isi) == 100 and set(kunci.values()) == {25} and bank.jumlah(kat, tingkat) == 100)
 cek("id soal unik", len({s["id"] for s in data}) == len(data))
 cek("teks soal tidak ada yang kembar", len({s["pertanyaan"] for s in data}) == len(data))
 cek("4 pilihan tiap soal berbeda", all(len(set(s["pilihan"].values())) == 4 for s in data))
-mtk_materi = Counter(s.get("materi") for s in data if s["kategori"] == "Matematika")
-cek(f"materi Matematika lengkap {dict(mtk_materi)}",
-    set(mtk_materi) == {"Aljabar", "Eksponen", "Pangkat", "Akar", "Fungsi komposisi"})
+MATERI_MTK = {"Bunga tunggal & majemuk", "Fungsi komposisi", "Fungsi invers", "Mean, median, modus"}
+for tingkat in KESULITAN:
+    mtk_materi = Counter(s.get("materi") for s in data if s["kategori"] == "Matematika" and s["tingkat"] == tingkat)
+    cek(f"{tingkat}: materi Matematika 4 x 25 {dict(mtk_materi)}",
+        set(mtk_materi) == MATERI_MTK and set(mtk_materi.values()) == {25})
 pj_materi = Counter(s.get("materi") for s in data if s["kategori"] == "Penjas Orkes")
 cek(f"materi Penjas lengkap {dict(pj_materi)}", set(pj_materi) == {"Renang", "Sepak bola", "Bulu tangkis"})
 
@@ -140,16 +145,28 @@ cek("soal tidak valid dilewati, sisanya dipakai", ok and b.jumlah() == 1 and b.j
 # ================================================================ T12: soal tidak berulang
 b = BankSoal()
 b.muat("soal.json")
-dilihat = [b.ambil_acak("Matematika") for _ in range(100)]
-cek("100 soal Matematika keluar tanpa berulang", len({s.id for s in dilihat}) == 100 and all(s.kategori == "Matematika" for s in dilihat))
-s101 = b.ambil_acak("Matematika")
-cek("T12 soal ke-101 dipinjam dari kategori lain (bukan mengulang)", b.dipinjam and s101.kategori != "Matematika")
+dilihat = [b.ambil_acak("Matematika", "Sulit") for _ in range(100)]
+cek("100 soal Matematika Sulit keluar tanpa berulang, semuanya tingkat Sulit",
+    len({s.id for s in dilihat}) == 100 and all(s.kategori == "Matematika" and s.tingkat == "Sulit" for s in dilihat))
+s101 = b.ambil_acak("Matematika", "Sulit")
+cek("T12 soal ke-101 dipinjam dari mapel lain di tingkat yang sama",
+    b.dipinjam and s101.kategori != "Matematika" and s101.tingkat == "Sulit")
 semua = {s.id for s in dilihat} | {s101.id}
 for _ in range(199):
-    semua.add(b.ambil_acak("Matematika").id)
-cek("300 soal keluar semua tanpa satu pun berulang", len(semua) == 300)
-b.ambil_acak("Matematika")
-cek("baru setelah 300 soal habis, bank diacak ulang", b.baru_diacak)
+    semua.add(b.ambil_acak("Matematika", "Sulit").id)
+cek("300 soal Sulit keluar semua tanpa satu pun berulang", len(semua) == 300)
+cek("soal tingkat lain belum tersentuh", b.sisa("Campuran", "Mudah") == 300 and b.sisa("Campuran", "Sedang") == 300)
+b.ambil_acak("Matematika", "Sulit")
+cek("baru setelah 300 soal Sulit habis, soal Sulit diacak ulang", b.baru_diacak and b.sisa("Campuran", "Mudah") == 300)
+
+for tingkat in KESULITAN:
+    gm, _, _ = buat_game(kesulitan=tingkat)
+    tk = set()
+    for _ in range(10):
+        tk.add(gm.soal_aktif.tingkat)
+        gm.jawab(salah_dari(gm))
+        gm.lanjut_setelah_hasil()
+    cek(f"game {tingkat}: soal yang keluar bertingkat {tingkat}", tk == {tingkat})
 
 gm, _, bank_g = buat_game(kategori="Sejarah Indonesia")
 id_game1 = set()

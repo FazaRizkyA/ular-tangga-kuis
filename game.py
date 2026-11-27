@@ -103,9 +103,10 @@ class GameManager:
 
     def mulai_giliran(self):
         """Mengambil soal baru untuk pemain aktif."""
-        self.__soal_aktif = self.__bank.ambil_acak(self.__kategori)
+        # soal diambil sesuai tingkat kesulitan papan (Mudah/Sedang/Sulit)
+        self.__soal_aktif = self.__bank.ambil_acak(self.__kategori, self.__papan.kesulitan)
         if self.__bank.baru_diacak:
-            self.__catat("Semua soal sudah keluar, bank soal diacak ulang.")
+            self.__catat(f"Semua soal {self.__papan.kesulitan} sudah keluar, bank soal diacak ulang.")
         elif self.__bank.dipinjam:
             self.__catat(f"Soal {self.__kategori} habis, soal diambil dari kategori lain.")
         self.__sisa_waktu = WAKTU_SOAL

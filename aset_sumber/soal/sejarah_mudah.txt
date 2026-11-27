@@ -1,0 +1,101 @@
+# Sejarah Indonesia - tingkat Mudah. Format: materi|pertanyaan|jawaban benar|pengecoh 1|pengecoh 2|pengecoh 3
+Praaksara|Zaman ketika manusia belum mengenal tulisan disebut zaman ...|Praaksara|Sejarah|Modern|Kolonial
+Praaksara|Fosil Pithecanthropus erectus ditemukan di Trinil oleh ...|Eugene Dubois|Von Koenigswald|Thomas Raffles|Daendels
+Praaksara|Situs manusia purba di Jawa Tengah yang menjadi Warisan Dunia UNESCO adalah ...|Sangiran|Trinil|Ngandong|Wajak
+Praaksara|Alat batu yang sudah diasah halus berasal dari zaman ...|Neolitikum|Paleolitikum|Mesolitikum|Kolonial
+Praaksara|Batu tegak besar yang didirikan untuk pemujaan roh nenek moyang disebut ...|Menhir|Kapak genggam|Nekara|Moko
+Praaksara|Nekara dan moko merupakan peninggalan zaman ...|Logam (perunggu)|Batu tua|Batu tengah|Kolonial
+Konsep sejarah|Sumber sejarah yang berasal langsung dari pelaku atau saksi peristiwa disebut sumber ...|Primer|Sekunder|Tersier|Fiksi
+Konsep sejarah|Sumber sejarah berupa buku yang ditulis berdasarkan sumber lain disebut sumber ...|Sekunder|Primer|Lisan|Fiksi
+Hindu-Buddha|Agama Hindu dan Buddha masuk ke Indonesia dibawa dari ...|India|Arab|Eropa|Persia
+Hindu-Buddha|Candi Borobudur terletak di provinsi ...|Jawa Tengah|Jawa Timur|Bali|Jawa Barat
+Hindu-Buddha|Candi Borobudur merupakan candi bercorak ...|Buddha|Hindu|Islam|Kristen
+Hindu-Buddha|Kerajaan Kutai terletak di Kalimantan ...|Timur|Barat|Selatan|Tengah
+Hindu-Buddha|Kerajaan Tarumanegara terletak di ...|Jawa Barat|Jawa Timur|Sumatra Utara|Bali
+Hindu-Buddha|Kerajaan Majapahit berpusat di Jawa ...|Timur|Tengah|Barat|Utara
+Hindu-Buddha|Kerajaan Sriwijaya terkenal sebagai kerajaan ...|Maritim|Agraris pegunungan|Gurun|Islam pertama
+Hindu-Buddha|Bangunan suci peninggalan masa Hindu-Buddha di Jawa disebut ...|Candi|Masjid|Gereja|Benteng
+Hindu-Buddha|Tulisan yang dipahat di batu sebagai sumber sejarah disebut ...|Prasasti|Kitab|Arca|Relief
+Hindu-Buddha|Prasasti Yupa dari Kutai ditulis dengan huruf ...|Pallawa|Latin|Arab|Jawa Baru
+Hindu-Buddha|Prasasti Yupa menggunakan bahasa ...|Sanskerta|Melayu|Jawa|Belanda
+Hindu-Buddha|Patung dewa atau tokoh yang dipuja disebut ...|Arca|Prasasti|Stupa|Menhir
+Hindu-Buddha|Kerajaan Hindu tertua di Pulau Jawa adalah ...|Tarumanegara|Majapahit|Singasari|Kediri
+Islam|Agama Islam masuk ke Indonesia terutama melalui jalur ...|Perdagangan|Peperangan|Penjajahan|Pertukaran pelajar
+Islam|Raja pertama Kerajaan Samudera Pasai adalah ...|Sultan Malik as-Saleh|Raden Patah|Sultan Agung|Sultan Hasanuddin
+Islam|Masjid Agung Demak menurut tradisi didirikan oleh ...|Walisongo|Belanda|Portugis|VOC
+Islam|Sunan yang makamnya terdapat di kawasan Ampel, Surabaya adalah ...|Sunan Ampel|Sunan Giri|Sunan Kudus|Sunan Muria
+Islam|Kerajaan Ternate dan Tidore terletak di ...|Maluku|Sulawesi|Papua|Nusa Tenggara
+Islam|Kerajaan Banjar terletak di ...|Kalimantan Selatan|Sumatra Barat|Jawa Timur|Sulawesi Utara
+Islam|Masjid Menara Kudus didirikan oleh ...|Sunan Kudus|Sunan Bonang|Sunan Drajat|Sunan Gunung Jati
+Islam|Sunan Gunung Jati menyebarkan Islam di daerah ...|Cirebon dan Banten|Aceh|Makassar|Ternate
+Kolonial|Bangsa Eropa datang ke Indonesia terutama untuk mencari ...|Rempah-rempah|Salju|Minyak bumi|Batu bara
+Kolonial|Maluku dijuluki kepulauan rempah karena menghasilkan ...|Cengkih dan pala|Emas|Minyak bumi|Karet
+Kolonial|VOC adalah kongsi dagang milik bangsa ...|Belanda|Inggris|Portugis|Spanyol
+Kolonial|Kepanjangan VOC adalah Vereenigde Oostindische ...|Compagnie|Commissie|Colonie|Corporatie
+Kolonial|Pangeran Diponegoro berasal dari Kesultanan ...|Yogyakarta|Banten|Aceh|Gowa
+Kolonial|Pahlawan Aceh yang menjadi suami Cut Nyak Dhien adalah ...|Teuku Umar|Teuku Cik Di Tiro|Tuanku Imam Bonjol|Pattimura
+Kolonial|R.A. Kartini berasal dari daerah ...|Jepara|Surabaya|Bandung|Yogyakarta
+Kolonial|Hari Kartini diperingati setiap tanggal ...|21 April|2 Mei|20 Mei|10 November
+Kolonial|Pahlawan perempuan Maluku yang berjuang bersama Pattimura adalah ...|Martha Christina Tiahahu|Cut Meutia|Dewi Sartika|Nyi Ageng Serang
+Kolonial|Dewi Sartika dikenal sebagai pelopor pendidikan bagi kaum ...|Perempuan|Tentara|Pedagang|Bangsawan Belanda
+Kolonial|Sisingamangaraja XII adalah pahlawan yang berasal dari ...|Tapanuli, Sumatra Utara|Bali|Papua|Kalimantan Barat
+Kolonial|Perang puputan (bertempur sampai titik darah penghabisan) dilakukan oleh rakyat ...|Bali|Aceh|Maluku|Minangkabau
+Kolonial|Nama kota Jakarta pada masa VOC adalah ...|Batavia|Sunda Kelapa|Jayakarta|Buitenzorg
+Kolonial|Kota Bogor pada masa kolonial Belanda disebut ...|Buitenzorg|Batavia|Bandoeng|Soerabaja
+Kolonial|Museum Fatahillah di Jakarta dahulu merupakan balai kota pada masa ...|VOC|Majapahit|Pendudukan Jepang|Orde Baru
+Pergerakan|Hari Sumpah Pemuda diperingati setiap tanggal ...|28 Oktober|20 Mei|17 Agustus|10 November
+Pergerakan|Isi Sumpah Pemuda yang ketiga adalah menjunjung bahasa persatuan, yaitu ...|Bahasa Indonesia|Bahasa Jawa|Bahasa Belanda|Bahasa Inggris
+Pergerakan|Tokoh yang dikenal dengan semboyan Ing Ngarsa Sung Tuladha adalah ...|Ki Hajar Dewantara|Sutomo|Douwes Dekker|H.O.S. Tjokroaminoto
+Pergerakan|Semboyan Tut Wuri Handayani dipakai sebagai lambang dunia ...|Pendidikan|Militer|Kepolisian|Perbankan
+Pergerakan|Budi Utomo pada awalnya bergerak di bidang ...|Pendidikan dan kebudayaan|Militer|Perdagangan senjata|Politik kemerdekaan
+Pergerakan|Tiga Serangkai terdiri atas Douwes Dekker, Ki Hajar Dewantara, dan ...|Cipto Mangunkusumo|Sutomo|Soekarno|Mohammad Hatta
+Pergerakan|Hari Ibu di Indonesia diperingati setiap tanggal ...|22 Desember|21 April|1 Juni|28 Oktober
+Pergerakan|Nama asli Ki Hajar Dewantara adalah ...|Raden Mas Soewardi Soerjaningrat|Raden Mas Said|Raden Mas Tirto Adhi Soerjo|Raden Mas Sosrokartono
+Pergerakan|Gedung tempat Sumpah Pemuda diikrarkan kini menjadi Museum ...|Sumpah Pemuda|Fatahillah|Gajah|Satria Mandala
+Pergerakan|Organisasi Muhammadiyah terutama bergerak di bidang ...|Pendidikan dan sosial keagamaan|Militer|Politik partai|Perdagangan rempah
+Jepang|Salah satu semboyan Gerakan 3A bentukan Jepang adalah ...|Nippon Pemimpin Asia|Nippon Raja Dunia|Asia untuk Eropa|Nippon Sahabat Belanda
+Jepang|Jepang menyerah kepada Sekutu pada tahun ...|1945|1942|1944|1946
+Jepang|Organisasi bentukan Jepang yang dipimpin Empat Serangkai adalah ...|Putera (Pusat Tenaga Rakyat)|Budi Utomo|PNI|Sarekat Islam
+Jepang|Empat Serangkai terdiri atas Soekarno, Mohammad Hatta, Ki Hajar Dewantara, dan ...|K.H. Mas Mansyur|Sutan Sjahrir|Tan Malaka|Sutomo
+Proklamasi|Proklamasi kemerdekaan Indonesia dibacakan pada tanggal ...|17 Agustus 1945|18 Agustus 1945|16 Agustus 1945|1 Juni 1945
+Proklamasi|Teks proklamasi kemerdekaan dibacakan oleh ...|Soekarno|Mohammad Hatta|Sutan Sjahrir|Ahmad Soebardjo
+Proklamasi|Presiden pertama Republik Indonesia adalah ...|Soekarno|Soeharto|B.J. Habibie|Mohammad Hatta
+Proklamasi|Wakil presiden pertama Republik Indonesia adalah ...|Mohammad Hatta|Hamengkubuwono IX|Adam Malik|Soeharto
+Proklamasi|Dasar negara Republik Indonesia adalah ...|Pancasila|Sumpah Pemuda|Bhinneka Tunggal Ika|Piagam Jakarta
+Proklamasi|Hari Lahir Pancasila diperingati setiap tanggal ...|1 Juni|1 Oktober|17 Agustus|22 Juni
+Proklamasi|UUD 1945 disahkan pada tanggal ...|18 Agustus 1945|17 Agustus 1945|1 Juni 1945|22 Juni 1945
+Proklamasi|Lambang negara Indonesia adalah ...|Garuda Pancasila|Banteng|Harimau Sumatra|Elang Jawa
+Proklamasi|Semboyan Bhinneka Tunggal Ika berarti ...|Berbeda-beda tetapi tetap satu|Bersatu kita teguh|Merdeka atau mati|Bekerja bersama-sama
+Proklamasi|Proklamasi kemerdekaan Indonesia dibacakan pada hari ...|Jumat|Senin|Minggu|Kamis
+Proklamasi|Tokoh yang gambarnya ada di uang kertas Rp100.000 adalah ...|Soekarno dan Mohammad Hatta|Soeharto|R.A. Kartini|Jenderal Soedirman
+Revolusi|Hari Pahlawan diperingati setiap tanggal ...|10 November|17 Agustus|20 Mei|1 Oktober
+Revolusi|Badan yang menjadi cikal bakal TNI dan dibentuk Agustus 1945 adalah ...|BKR (Badan Keamanan Rakyat)|PETA|KNIL|Heiho
+Revolusi|Hari TNI diperingati setiap tanggal ...|5 Oktober|10 November|1 Juli|17 Agustus
+Revolusi|Negara yang ingin kembali berkuasa di Indonesia setelah proklamasi adalah ...|Belanda|Jepang|Portugis|Spanyol
+Revolusi|Lagu Halo-Halo Bandung berkaitan dengan peristiwa ...|Bandung Lautan Api|Pertempuran Surabaya|Serangan Umum 1 Maret|Pertempuran Ambarawa
+Revolusi|Pertempuran Medan Area terjadi di provinsi ...|Sumatra Utara|Jawa Timur|Bali|Kalimantan Barat
+Revolusi|Puputan Margarana di Bali dipimpin oleh ...|I Gusti Ngurah Rai|Bung Tomo|Jenderal Soedirman|Pattimura
+Revolusi|Monumen Tugu Pahlawan terletak di kota ...|Surabaya|Jakarta|Semarang|Bandung
+Orde Lama|Monumen Nasional (Monas) terletak di kota ...|Jakarta|Bandung|Yogyakarta|Surabaya
+Orde Lama|Peristiwa G30S terjadi pada tahun ...|1965|1966|1945|1998
+Orde Lama|Hari Kesaktian Pancasila diperingati setiap tanggal ...|1 Oktober|1 Juni|30 September|5 Oktober
+Orde Lama|Konferensi Asia Afrika menghasilkan kesepakatan yang disebut ...|Dasasila Bandung|Piagam Jakarta|Sumpah Pemuda|Supersemar
+Orde Lama|Indonesia termasuk negara pendiri Gerakan ...|Non-Blok|Pakta Warsawa|NATO|Uni Eropa
+Orde Lama|Asian Games 1962 diselenggarakan di kota ...|Jakarta|Bangkok|Tokyo|Manila
+Orde Baru|Presiden kedua Republik Indonesia adalah ...|Soeharto|B.J. Habibie|Soekarno|Abdurrahman Wahid
+Orde Baru|Program Keluarga Berencana (KB) bertujuan untuk ...|Mengendalikan jumlah penduduk|Menambah jumlah tentara|Memperluas wilayah|Membangun candi
+Orde Baru|ASEAN didirikan pada tahun ...|1967|1955|1945|1998
+Orde Baru|ASEAN didirikan di kota ...|Bangkok|Jakarta|Manila|Kuala Lumpur
+Orde Baru|Rencana pembangunan lima tahun pada masa Orde Baru disebut ...|Repelita|Nawacita|Trikora|Dwikora
+Orde Baru|Indonesia mencapai swasembada beras pada tahun ...|1984|1965|1998|2004
+Orde Baru|Julukan Bapak Pembangunan Indonesia diberikan kepada ...|Soeharto|Soekarno|B.J. Habibie|Susilo Bambang Yudhoyono
+Reformasi|Presiden keempat Republik Indonesia adalah ...|Abdurrahman Wahid|Megawati Soekarnoputri|Susilo Bambang Yudhoyono|B.J. Habibie
+Reformasi|Presiden ketujuh Republik Indonesia adalah ...|Joko Widodo|Susilo Bambang Yudhoyono|Prabowo Subianto|Megawati Soekarnoputri
+Reformasi|Presiden kedelapan Republik Indonesia yang dilantik tahun 2024 adalah ...|Prabowo Subianto|Joko Widodo|Ganjar Pranowo|Anies Baswedan
+Reformasi|Timor Timur lepas dari Indonesia dan menjadi negara ...|Timor Leste|Papua Nugini|Brunei Darussalam|Singapura
+Reformasi|Salah satu tuntutan gerakan Reformasi 1998 adalah pemberantasan ...|Korupsi, kolusi, dan nepotisme|Buta huruf|Penyakit menular|Banjir
+Reformasi|Pemilihan presiden secara langsung pertama kali dilaksanakan pada tahun ...|2004|1999|1955|2009
+Reformasi|Lembaga negara yang dibentuk untuk memberantas korupsi adalah ...|KPK|BPUPKI|PPKI|KNIP
+Reformasi|Abdurrahman Wahid (Gus Dur) dikenal sebagai Bapak ...|Pluralisme|Koperasi|Pembangunan|Proklamator
+Reformasi|B.J. Habibie dikenal sebagai ahli di bidang ...|Pesawat terbang|Pertanian|Musik|Sepak bola
+Reformasi|Ibu kota negara baru Indonesia di Kalimantan Timur bernama ...|Nusantara|Samarinda|Balikpapan|Palangka Raya

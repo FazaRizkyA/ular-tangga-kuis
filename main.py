@@ -605,8 +605,8 @@ class App:
     def __mulai_permainan(self):
         if not self.__validasi_nama():
             return
-        if self.bank.jumlah(self.kategori) == 0:
-            self.pesan_error = f"Tidak ada soal untuk kategori {self.kategori}."
+        if self.bank.jumlah(self.kategori, self.kesulitan) == 0:
+            self.pesan_error = f"Tidak ada soal {self.kesulitan} untuk kategori {self.kategori}."
             return
         daftar = []
         akurasi = KESULITAN[self.kesulitan]["akurasi_bot"]
@@ -669,11 +669,11 @@ class App:
         label("KATEGORI SOAL", 522)
         for nama, t in self.t_kategori.items():
             dipilih = self.kategori == nama
-            t.aktif = self.bank.jumlah(nama) > 0
+            t.aktif = self.bank.jumlah(nama, self.kesulitan) > 0
             t.gambar(c, self.huruf, mouse, MERAH_CAT if dipilih else KREM_GELAP, KREM if dipilih else TINTA)
-        jumlah_soal = self.bank.jumlah(self.kategori)
-        sisa = self.bank.sisa(self.kategori)
-        tulis(c, f"{jumlah_soal} soal, {sisa} belum pernah keluar", self.huruf.kecil, TINTA_LEMBUT, (420, 562), "midleft")
+        jumlah_soal = self.bank.jumlah(self.kategori, self.kesulitan)
+        sisa = self.bank.sisa(self.kategori, self.kesulitan)
+        tulis(c, f"{jumlah_soal} soal {self.kesulitan}, {sisa} belum pernah keluar", self.huruf.kecil, TINTA_LEMBUT, (420, 562), "midleft")
 
         self.t_kembali_setup.gambar(c, self.huruf, mouse)
         self.t_mulai_main.gambar(c, self.huruf, mouse)

@@ -22,7 +22,7 @@ IS_ANDROID = hasattr(sys, "getandroidapilevel") or "ANDROID_ARGUMENT" in os.envi
 
 # ---------------------------------------------------------------- layar
 JUDUL = "Ular Tangga Kuis"
-VERSI = "1.3"   # satu-satunya tempat nomor versi; installer & menu mengikuti
+VERSI = "1.4"   # satu-satunya tempat nomor versi; installer & menu mengikuti
 LEBAR, TINGGI = 1280, 720
 FPS = 60
 

@@ -1,0 +1,101 @@
+# Penjas Orkes - tingkat Mudah. Format: materi|pertanyaan|jawaban benar|pengecoh 1|pengecoh 2|pengecoh 3
+Renang|Olahraga air yang dilakukan dengan menggerakkan tangan dan kaki agar tubuh bergerak di air disebut ...|Renang|Senam|Atletik|Panahan
+Renang|Tempat yang digunakan untuk berlatih renang disebut ...|Kolam renang|Lapangan|Gelanggang tinju|Lintasan lari
+Renang|Pakaian khusus yang dipakai saat berenang disebut ...|Baju renang|Seragam sekolah|Jaket tebal|Jas hujan
+Renang|Penutup kepala yang dipakai perenang untuk melindungi rambut disebut ...|Topi renang|Helm|Bandana|Topi pet
+Renang|Sebelum masuk ke kolam renang, sebaiknya kita melakukan ...|Pemanasan|Makan sangat banyak|Tidur siang|Lari jarak jauh
+Renang|Perenang yang menang dalam lomba adalah yang ...|Paling cepat menyentuh dinding akhir|Paling lama di dalam air|Paling sedikit bergerak|Paling sering mengambil napas
+Renang|Jalur renang untuk setiap perenang dalam lomba disebut ...|Lintasan|Petak|Gawang|Pos
+Renang|Tali pemisah antarjalur di kolam lomba disebut ...|Tali lintasan|Net|Garis start|Tali tambang
+Renang|Tempat perenang berdiri sebelum melompat saat start disebut ...|Balok start|Papan skor|Bangku cadangan|Tangga kolam
+Renang|Saat berenang, napas dihembuskan di dalam air melalui ...|Hidung dan mulut|Telinga|Mata|Pori-pori kulit
+Renang|Latihan mengapung di air bertujuan melatih ...|Keseimbangan tubuh di air|Kecepatan lari|Lompat tinggi|Kekuatan jari
+Renang|Berenang baik untuk kesehatan karena melatih hampir ...|Seluruh otot tubuh|Otot mata saja|Otot leher saja|Otot jari saja
+Renang|Perenang pemula sebaiknya berlatih di bagian kolam yang ...|Dangkal|Paling dalam|Berarus deras|Paling jauh dari pengawas
+Renang|Petugas yang menjaga keselamatan pengunjung kolam renang disebut ...|Penjaga kolam (lifeguard)|Wasit|Juri gaya|Pelatih fisik
+Renang|Pada gaya bebas, posisi badan perenang adalah ...|Telungkup|Telentang|Berdiri|Duduk
+Renang|Satu tim estafet renang terdiri atas ... perenang.|4|2|3|6
+Renang|Setelah selesai berenang, sebaiknya kita ...|Membilas tubuh dengan air bersih|Langsung tidur di tepi kolam|Tidak mengeringkan badan|Berjemur berjam-jam
+Renang|Berenang dengan perut terlalu kenyang sebaiknya dihindari karena dapat menyebabkan ...|Kram perut|Rambut rontok|Mata minus|Kuku patah
+Renang|Gerakan meluncur di air dimulai dengan cara ...|Menolak dinding kolam dengan kaki|Berdiri diam di dasar kolam|Memegang tali lintasan|Melompat mundur
+Renang|Pada gaya dada, kedua kaki bergerak secara ...|Bersamaan|Bergantian naik-turun|Diam saja|Satu kaki saja
+Renang|Pada gaya bebas, kedua lengan bergerak secara ...|Bergantian|Bersamaan|Tidak bergerak|Satu lengan saja
+Renang|Pada gaya punggung, wajah perenang menghadap ke ...|Atas|Dasar kolam|Dinding samping|Belakang
+Renang|Air yang aman untuk anak belajar renang adalah yang dalamnya ...|Setinggi dada atau lebih rendah|Lebih tinggi dari kepala|Lebih dari 3 meter|Berarus deras
+Renang|Jika kelelahan di tengah kolam, cara meminta tolong yang tepat adalah ...|Melambai dan berteriak minta tolong|Menyelam ke dasar kolam|Diam tanpa memberi tanda|Tertawa keras
+Renang|Latihan memasukkan wajah ke air sambil menghembuskan napas bertujuan ...|Membiasakan bernapas saat berenang|Menguatkan otot kaki|Melatih lari|Mempercepat start
+Renang|Olahraga renang dapat dilakukan oleh ...|Semua usia|Orang dewasa saja|Atlet saja|Anak-anak saja
+Renang|Penjepit hidung pada renang berguna untuk ...|Mencegah air masuk ke hidung|Melindungi mata|Mempercepat gerakan|Menghangatkan badan
+Renang|Lomba renang 4 x 100 meter gaya bebas termasuk nomor ...|Estafet|Perorangan|Gaya ganti perorangan|Perairan terbuka
+Renang|Dalam lomba, setiap perenang harus berenang di ...|Lintasannya sendiri|Lintasan mana saja|Lintasan lawan|Tepi kolam
+Renang|Peralatan berikut yang TIDAK diperlukan dalam olahraga renang adalah ...|Raket|Kacamata renang|Baju renang|Topi renang
+Renang|Gaya bebas disebut demikian karena dalam lomba gaya bebas perenang ...|Boleh memakai gaya apa saja|Wajib memakai gaya punggung|Boleh berjalan di dasar kolam|Tidak boleh memakai gaya apa pun
+Renang|Perenang yang berenang dengan posisi badan telungkup dan kedua lengan diayun bersamaan di atas air memakai gaya ...|Kupu-kupu|Punggung|Bebas|Dada
+Renang|Lomba renang yang diadakan di laut atau danau disebut renang ...|Perairan terbuka|Estafet|Indah|Gaya ganti
+Sepak bola|Tujuan permainan sepak bola adalah ...|Memasukkan bola ke gawang lawan|Memukul bola dengan raket|Memasukkan bola ke ring|Menendang bola keluar lapangan
+Sepak bola|Alat utama dalam permainan sepak bola adalah ...|Bola|Raket|Kok|Tongkat
+Sepak bola|Orang yang memimpin pertandingan sepak bola di lapangan disebut ...|Wasit|Kapten|Pelatih|Manajer
+Sepak bola|Bagian tubuh yang paling banyak dipakai untuk memainkan bola dalam sepak bola adalah ...|Kaki|Tangan|Siku|Bahu
+Sepak bola|Pemain yang memimpin rekan setimnya di lapangan dan memakai ban lengan disebut ...|Kapten|Wasit|Manajer|Pemain cadangan
+Sepak bola|Pemain lini tengah yang membantu bertahan dan menyerang disebut ...|Gelandang|Penjaga gawang|Hakim garis|Wasit
+Sepak bola|Pemain belakang yang bertugas menghalangi serangan lawan disebut ...|Pemain bertahan (bek)|Penyerang|Wasit|Kapten cadangan
+Sepak bola|Kartu merah dalam sepak bola berarti pemain ...|Dikeluarkan dari pertandingan|Mendapat peringatan saja|Mencetak gol|Boleh bermain lagi
+Sepak bola|Pertandingan sepak bola dalam waktu normal dibagi menjadi ... babak.|2|3|4|1
+Sepak bola|Pertandingan yang berakhir dengan jumlah gol sama disebut ...|Seri (imbang)|Menang|Kalah|Diskualifikasi
+Sepak bola|Lapangan sepak bola berbentuk ...|Persegi panjang|Lingkaran|Segitiga|Segi enam
+Sepak bola|Garis yang membagi lapangan sepak bola menjadi dua bagian sama besar disebut ...|Garis tengah|Garis gawang|Garis samping|Garis penalti
+Sepak bola|Teknik mengoper bola kepada teman disebut ...|Passing|Heading|Dribbling|Shooting
+Sepak bola|Teknik menendang bola ke arah gawang untuk mencetak gol disebut ...|Shooting|Passing|Stopping|Throw-in
+Sepak bola|Pelindung tulang kering yang dipakai pemain sepak bola disebut ...|Dekker|Helm|Sarung tangan|Kacamata
+Sepak bola|Tonjolan di bagian bawah sepatu sepak bola yang mencegah tergelincir disebut ...|Pul (stud)|Tali sepatu|Lidah sepatu|Hak sepatu
+Sepak bola|Penjaga gawang memakai ... agar mudah menangkap bola.|Sarung tangan|Helm|Topi|Ikat pinggang
+Sepak bola|Jika bola masuk ke gawang lawan secara sah, tim penyerang mendapatkan ...|Gol|Kartu kuning|Tendangan sudut|Lemparan ke dalam
+Sepak bola|Pelanggaran seperti mendorong lawan dihukum dengan ...|Tendangan bebas|Tendangan sudut|Lemparan ke dalam|Tendangan gawang
+Sepak bola|Pemain selain penjaga gawang yang sengaja menyentuh bola dengan tangan melakukan ...|Pelanggaran handball|Gol sah|Tendangan sudut|Offside
+Sepak bola|Tim yang mencetak gol lebih banyak di akhir pertandingan dinyatakan ...|Menang|Kalah|Seri|Didiskualifikasi
+Sepak bola|Selama pertandingan, pemain cadangan duduk di ...|Bangku cadangan|Tengah lapangan|Dalam gawang|Kursi wasit
+Sepak bola|Wasit menandai dimulai dan berakhirnya pertandingan dengan ...|Peluit|Bendera|Bel sekolah|Kartu hijau
+Sepak bola|Asisten wasit (hakim garis) memberi tanda dengan menggunakan ...|Bendera|Peluit panjang|Kartu biru|Bola
+Sepak bola|Tendangan yang dilakukan dari titik sudut lapangan disebut ...|Tendangan sudut|Tendangan penalti|Tendangan gawang|Tendangan salto
+Sepak bola|Tim nasional sepak bola Indonesia dijuluki Tim ...|Garuda|Singa|Banteng|Rajawali
+Sepak bola|Stadion terbesar di Jakarta yang sering dipakai timnas Indonesia adalah Stadion ...|Gelora Bung Karno|Maracana|Wembley|Camp Nou
+Sepak bola|Sebelum bermain sepak bola, pemain sebaiknya melakukan ...|Pemanasan|Makan berat|Tidur siang|Duduk saja
+Sepak bola|Sepak bola disebut olahraga beregu karena ...|Dimainkan bersama satu tim|Dimainkan satu orang|Dimainkan di air|Dimainkan dengan raket
+Sepak bola|Bola keluar melewati garis gawang setelah terakhir disentuh pemain penyerang, permainan dilanjutkan dengan ...|Tendangan gawang|Tendangan sudut|Lemparan ke dalam|Tendangan penalti
+Sepak bola|Permainan sepak bola dimulai dengan ...|Kick-off|Tendangan sudut|Lemparan ke dalam|Tendangan penalti
+Sepak bola|Gerakan memantul-mantulkan bola dengan kaki tanpa jatuh ke tanah disebut ...|Juggling|Tackling|Heading|Passing
+Sepak bola|Teknik menerima bola dengan dada lalu menurunkannya ke kaki disebut ...|Mengontrol bola dengan dada|Menyundul bola|Menendang voli|Melempar bola
+Bulu tangkis|Alat pemukul dalam permainan bulu tangkis disebut ...|Raket|Tongkat|Pemukul kasti|Stik
+Bulu tangkis|Benda yang dipukul dalam permainan bulu tangkis disebut ...|Kok (shuttlecock)|Bola kecil|Cakram|Peluru
+Bulu tangkis|Lapangan bulu tangkis dibagi menjadi dua bagian oleh ...|Net|Pagar|Tiang bendera|Tali tambang
+Bulu tangkis|Permainan bulu tangkis satu lawan satu disebut ...|Tunggal|Ganda|Beregu|Estafet
+Bulu tangkis|Permainan bulu tangkis dua lawan dua disebut ...|Ganda|Tunggal|Beregu|Perorangan
+Bulu tangkis|Ganda campuran adalah pasangan yang terdiri atas ...|Satu putra dan satu putri|Dua putra|Dua putri|Tiga pemain
+Bulu tangkis|Pukulan pertama untuk memulai permainan bulu tangkis disebut ...|Servis|Smash|Lob|Drive
+Bulu tangkis|Nama lain bulu tangkis dalam bahasa Inggris adalah ...|Badminton|Tenis meja|Squash|Softball
+Bulu tangkis|Bulu pada kok bulu tangkis yang bermutu baik biasanya berasal dari bulu ...|Angsa atau bebek|Merak|Elang|Ayam hutan
+Bulu tangkis|Bagian kok yang dipukul dengan raket adalah ...|Kepala gabus|Ujung bulu|Tali pengikat|Bagian tengah bulu
+Bulu tangkis|Pemain mendapat poin jika kok ...|Jatuh di dalam lapangan lawan|Jatuh di lapangannya sendiri|Dipukulnya keluar lapangan|Tersangkut di net saat ia memukul
+Bulu tangkis|Wasit utama bulu tangkis duduk di ...|Kursi tinggi di samping net|Belakang lapangan|Tengah lapangan|Tribun penonton
+Bulu tangkis|Pukulan dengan punggung tangan menghadap ke arah datangnya kok disebut pukulan ...|Backhand|Forehand|Smash|Servis
+Bulu tangkis|Indonesia terkenal di dunia karena banyak juara dalam olahraga ...|Bulu tangkis|Hoki es|Rugbi|Ski
+Bulu tangkis|Sepatu bulu tangkis sebaiknya memiliki sol yang ...|Tidak licin|Licin|Berpaku besi|Sangat tinggi
+Bulu tangkis|Bulu tangkis umumnya dimainkan di dalam gedung karena ...|Kok ringan dan mudah terbawa angin|Bola terlalu berat|Raket mudah basah|Net terlalu tinggi
+Bulu tangkis|Gerakan kaki yang lincah dalam bulu tangkis berguna untuk ...|Menjangkau kok di seluruh lapangan|Menendang kok|Melompati net|Menjaga gawang
+Bulu tangkis|Bulu tangkis termasuk jenis permainan ...|Net|Bela diri|Atletik|Akuatik
+Bulu tangkis|Sistem skor bulu tangkis saat ini memakai reli poin, artinya ...|Setiap reli menghasilkan poin|Hanya pelaku servis dapat poin|Poin dihitung dari waktu|Poin hanya dari smash
+Bulu tangkis|Dengan sistem reli poin, pemain yang melakukan servis berikutnya adalah pemain yang ...|Memenangi reli sebelumnya|Kalah pada reli sebelumnya|Paling tinggi badannya|Dipilih penonton
+Bulu tangkis|Lapangan bulu tangkis untuk nomor ganda lebih ... dibanding nomor tunggal.|Lebar|Sempit|Pendek|Kecil
+Bulu tangkis|Raket bulu tangkis dipegang pada bagian ...|Gagang|Senar|Kepala raket|Bingkai raket
+Bulu tangkis|Bagian raket yang dipakai untuk memukul kok adalah ...|Daun raket yang bersenar|Gagang|Leher raket|Tutup gagang
+Bulu tangkis|Pemain bulu tangkis yang lincah artinya ...|Cepat bergerak dan berubah arah|Mampu mengangkat beban berat|Mampu menahan napas lama|Mampu berlari 10 km
+Bulu tangkis|Kok yang jatuh di luar garis lapangan dinyatakan ...|Keluar (out)|Masuk|Diulang|Poin bagi pemukul
+Bulu tangkis|Dalam nomor ganda, pemain harus bekerja sama dengan ...|Pasangannya|Wasit|Lawan|Penonton
+Bulu tangkis|Kok harus dipukul melewati ... ke lapangan lawan.|Atas net|Bawah net|Samping tiang|Lantai
+Bulu tangkis|Permainan bulu tangkis dimulai dari skor ...|0-0|1-1|15-0|21-0
+Bulu tangkis|Raket bulu tangkis modern umumnya terbuat dari bahan ...|Serat karbon yang ringan|Besi tebal|Batu|Kayu jati berat
+Bulu tangkis|Pukulan yang dilakukan dengan telapak tangan menghadap ke arah datangnya kok disebut pukulan ...|Forehand|Backhand|Netting|Dropshot
+Bulu tangkis|Sebelum bermain bulu tangkis, pemain sebaiknya melakukan ...|Pemanasan dan peregangan|Makan berat|Tidur siang|Minum minuman bersoda
+Bulu tangkis|Arena tempat bermain bulu tangkis berbentuk ...|Persegi panjang|Lingkaran|Segitiga|Trapesium
+Bulu tangkis|Pemain yang menerima servis disebut ...|Penerima servis|Pelaku servis|Wasit garis|Hakim servis
+Bulu tangkis|Pukulan keras menukik ke bawah dari atas kepala disebut ...|Smash|Lob|Netting|Servis pendek

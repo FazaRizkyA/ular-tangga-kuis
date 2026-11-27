@@ -1,0 +1,101 @@
+# Sejarah Indonesia - tingkat Sulit. Format: materi|pertanyaan|jawaban benar|pengecoh 1|pengecoh 2|pengecoh 3
+Hindu-Buddha|Prasasti Ciaruteun yang memuat telapak kaki raja merupakan peninggalan Kerajaan ...|Tarumanegara|Kutai|Sriwijaya|Mataram Kuno
+Hindu-Buddha|Prasasti Kedukan Bukit (683 M) merupakan peninggalan Kerajaan ...|Sriwijaya|Majapahit|Kediri|Singasari
+Hindu-Buddha|Tokoh yang disebut dalam Prasasti Kedukan Bukit melakukan perjalanan suci (siddhayatra) adalah ...|Dapunta Hyang Sri Jayanasa|Balaputradewa|Purnawarman|Sanjaya
+Hindu-Buddha|Raja Sriwijaya keturunan Syailendra yang disebut dalam Prasasti Nalanda adalah ...|Balaputradewa|Dharmawangsa|Airlangga|Kertanegara
+Hindu-Buddha|Prasasti Canggal (732 M) dikeluarkan oleh raja ...|Sanjaya|Samaratungga|Rakai Pikatan|Mpu Sindok
+Hindu-Buddha|Raja yang memindahkan pusat Kerajaan Mataram Kuno ke Jawa Timur adalah ...|Mpu Sindok|Airlangga|Ken Arok|Hayam Wuruk
+Hindu-Buddha|Kerajaan Medang di Jawa Timur yang didirikan Mpu Sindok dikenal dengan Dinasti ...|Isyana|Syailendra|Rajasa|Sanjaya
+Hindu-Buddha|Raja Airlangga membagi kerajaannya menjadi Janggala dan ...|Panjalu (Kediri)|Singasari|Majapahit|Medang
+Hindu-Buddha|Kitab Arjunawiwaha ditulis oleh ...|Mpu Kanwa|Mpu Sedah|Mpu Panuluh|Mpu Prapanca
+Hindu-Buddha|Kitab Bharatayudha ditulis oleh Mpu Sedah dan ...|Mpu Panuluh|Mpu Kanwa|Mpu Tantular|Mpu Prapanca
+Hindu-Buddha|Raja Kediri yang terkenal dengan ramalan Jangka Jayabaya adalah ...|Jayabaya|Kertajaya|Kameswara|Airlangga
+Hindu-Buddha|Raja Kediri yang dikalahkan Ken Arok dalam Pertempuran Ganter (1222) adalah ...|Kertajaya|Jayabaya|Jayakatwang|Tunggul Ametung
+Hindu-Buddha|Raja Singasari yang melakukan Ekspedisi Pamalayu adalah ...|Kertanegara|Ranggawuni|Anusapati|Tohjaya
+Hindu-Buddha|Ekspedisi Pamalayu dilaksanakan pada tahun ...|1275|1293|1357|1222
+Hindu-Buddha|Peristiwa Bubat (1357) terjadi antara Majapahit dan Kerajaan ...|Sunda|Bali|Sriwijaya|Kediri
+Hindu-Buddha|Pasukan asing yang diusir Raden Wijaya saat Majapahit berdiri (1293) berasal dari ...|Mongol (Dinasti Yuan)|Jepang|Portugis|India
+Hindu-Buddha|Perang saudara di Majapahit setelah wafatnya Hayam Wuruk disebut Perang ...|Paregreg|Bubat|Padri|Ganter
+Islam|Teori masuknya Islam ke Indonesia dari Gujarat antara lain dikemukakan oleh ...|Snouck Hurgronje|Hamka|Hoesein Djajadiningrat|Eugene Dubois
+Islam|Teori Mekah tentang masuknya Islam ke Indonesia didukung oleh tokoh Indonesia ...|Hamka|Snouck Hurgronje|Moquette|Pijnappel
+Islam|Makam Fatimah binti Maimun, bukti awal Islam di Jawa, terletak di ...|Leran, Gresik|Demak|Kudus|Cirebon
+Islam|Pati Unus dari Demak memimpin serangan terhadap Portugis di ...|Malaka|Goa|Batavia|Ternate
+Islam|Fatahillah merebut Sunda Kelapa dan menamainya Jayakarta pada tahun ...|1527|1511|1596|1619
+Islam|Sultan Agung menyerang VOC di Batavia pada tahun 1628 dan ...|1629|1630|1625|1640
+Islam|Perjanjian Bongaya (1667) merugikan Kerajaan ...|Gowa-Tallo|Banten|Mataram|Aceh
+Islam|Perjanjian Giyanti (1755) membagi Mataram menjadi Kasunanan Surakarta dan ...|Kesultanan Yogyakarta|Kadipaten Pakualaman|Kadipaten Mangkunegaran|Kesultanan Cirebon
+Islam|Perjanjian Salatiga (1757) melahirkan ...|Kadipaten Mangkunegaran|Kesultanan Yogyakarta|Kadipaten Pakualaman|Kasunanan Surakarta
+Islam|Sultan Baabullah dari Ternate berhasil mengusir bangsa ... pada tahun 1575.|Portugis|Belanda|Spanyol|Inggris
+Kolonial|Portugis menguasai Malaka pada tahun ...|1511|1527|1596|1602
+Kolonial|Perjanjian Saragosa (1529) mengatur pembagian wilayah antara Portugis dan ...|Spanyol|Belanda|Inggris|Prancis
+Kolonial|Gubernur Jenderal VOC yang mendirikan Batavia pada 1619 adalah ...|Jan Pieterszoon Coen|Herman Willem Daendels|Thomas Stamford Raffles|Van den Bosch
+Kolonial|Hak istimewa VOC, termasuk monopoli dagang dan membentuk tentara, disebut hak ...|Oktroi|Veto|Angket|Ulayat
+Kolonial|Pelayaran Hongi yang dijalankan VOC bertujuan ...|Mengawasi monopoli rempah|Mencari tambang emas|Mengangkut jemaah haji|Menjelajahi Australia
+Kolonial|Ekstirpasi dalam kebijakan VOC adalah ...|Pemusnahan tanaman rempah berlebih|Penanaman padi besar-besaran|Pemungutan pajak tanah|Kerja rodi membangun jalan
+Kolonial|Kebijakan pajak tanah (landrent) diterapkan oleh ...|Thomas Stamford Raffles|Herman Willem Daendels|Van den Bosch|Jan Pieterszoon Coen
+Kolonial|Daendels dikirim ke Jawa terutama untuk mempertahankannya dari serangan ...|Inggris|Portugis|Jepang|Spanyol
+Kolonial|Undang-Undang Agraria 1870 membuka Indonesia bagi ...|Penanaman modal swasta asing|Tanam paksa|VOC|Kerja rodi
+Kolonial|Tokoh Belanda yang menggagas Politik Etis melalui tulisan Een Eereschuld adalah ...|C. Th. van Deventer|Douwes Dekker|Snouck Hurgronje|Van Heutsz
+Kolonial|Siasat Belanda dalam Perang Aceh atas saran Snouck Hurgronje adalah ...|Memisahkan ulama dari uleebalang|Benteng stelsel|Tanam paksa|Pelayaran Hongi
+Kolonial|Strategi benteng stelsel digunakan Belanda dalam Perang ...|Diponegoro|Aceh|Bali|Banjar
+Kolonial|Pangeran Diponegoro ditangkap dengan tipu muslihat pada tahun 1830 di ...|Magelang|Yogyakarta|Semarang|Batavia
+Kolonial|Pangeran Diponegoro diasingkan hingga wafat di ...|Makassar|Ambon|Banda|Manado
+Kolonial|Tuanku Imam Bonjol diasingkan hingga wafat di ...|Minahasa|Ambon|Makassar|Cianjur
+Kolonial|Perang Padri pada awalnya merupakan pertentangan antara kaum Padri dan kaum ...|Adat|Ulama|Bangsawan Jawa|Pedagang Arab
+Kolonial|Perang Banjar meletus pada tahun ...|1859|1825|1873|1906
+Kolonial|Perang Aceh melawan Belanda dimulai pada tahun ...|1873|1859|1825|1903
+Kolonial|Perang Jagaraga di Bali dipimpin oleh ...|I Gusti Ketut Jelantik|I Gusti Ngurah Rai|Untung Suropati|Sisingamangaraja XII
+Pergerakan|Organisasi pergerakan yang pertama kali secara tegas menuntut Indonesia merdeka adalah ...|Indische Partij|Budi Utomo|Muhammadiyah|Taman Siswa
+Pergerakan|Organisasi mahasiswa Indonesia di Belanda yang mengeluarkan Manifesto Politik 1925 adalah ...|Perhimpunan Indonesia|Jong Java|PNI|Budi Utomo
+Pergerakan|Tokoh yang membacakan pembelaan Indonesia Merdeka di pengadilan Den Haag adalah ...|Mohammad Hatta|Soekarno|Sutan Sjahrir|Tan Malaka
+Pergerakan|Pembelaan Soekarno di pengadilan Bandung tahun 1930 berjudul ...|Indonesia Menggugat|Indonesia Merdeka|Di Bawah Bendera Revolusi|Habis Gelap Terbitlah Terang
+Pergerakan|Kongres Pemuda II (1928) dipimpin oleh ...|Soegondo Djojopoespito|Muhammad Yamin|W.R. Supratman|Amir Sjarifuddin
+Pergerakan|Rumusan ikrar Sumpah Pemuda ditulis oleh ...|Muhammad Yamin|Soegondo Djojopoespito|Soekarno|Amir Sjarifuddin
+Pergerakan|Gedung di Jalan Kramat Raya 106 tempat Kongres Pemuda II adalah milik ...|Sie Kong Liong|Tadashi Maeda|Soegondo Djojopoespito|Douwes Dekker
+Pergerakan|Petisi Sutardjo (1936) berisi permohonan agar Indonesia ...|Diberi pemerintahan sendiri dalam 10 tahun|Merdeka saat itu juga|Bergabung dengan Jepang|Membubarkan Volksraad
+Pergerakan|Dewan rakyat bentukan pemerintah Hindia Belanda tahun 1918 disebut ...|Volksraad|Chuo Sangi In|KNIP|Raad van Indie
+Pergerakan|Gabungan Politik Indonesia (GAPI) tahun 1939 mengusung semboyan ...|Indonesia Berparlemen|Indonesia Merdeka Sekarang|Merdeka atau Mati|Indonesia Menggugat
+Pergerakan|Surat kabar Medan Prijaji didirikan oleh tokoh pers ...|Tirto Adhi Soerjo|Adam Malik|Mochtar Lubis|Rosihan Anwar
+Pergerakan|Ketua Kongres Perempuan Indonesia I tahun 1928 adalah ...|R.A. Soekonto|R.A. Kartini|Dewi Sartika|Rasuna Said
+Jepang|Badan pertimbangan pusat bentukan Jepang adalah ...|Chuo Sangi In|Volksraad|KNIP|Keibodan
+Jepang|Barisan pemuda semimiliter bentukan Jepang disebut ...|Seinendan|Keibodan|Heiho|Fujinkai
+Jepang|Organisasi perempuan bentukan Jepang disebut ...|Fujinkai|Seinendan|Heiho|Jawa Hokokai
+Jepang|Janji kemerdekaan bagi Indonesia pada September 1944 diumumkan oleh Perdana Menteri Jepang ...|Koiso|Tojo|Hirohito|Terauchi
+Jepang|Pemberontakan PETA di Blitar tahun 1945 dipimpin oleh ...|Supriyadi|Zainal Mustafa|Soedirman|Bung Tomo
+Jepang|Perlawanan rakyat Singaparna terhadap Jepang dipimpin oleh ...|K.H. Zainal Mustafa|Supriyadi|Teuku Abdul Jalil|K.H. Hasyim Asy'ari
+Jepang|Daerah di Indonesia yang pertama kali didarati tentara Jepang pada Januari 1942 adalah ...|Tarakan|Surabaya|Jakarta|Bali
+Jepang|Pasukan pembantu prajurit Jepang yang beranggotakan pemuda Indonesia disebut ...|Heiho|Fujinkai|Seinendan|Chuo Sangi In
+Proklamasi|Nama BPUPKI dalam bahasa Jepang adalah ...|Dokuritsu Junbi Cosakai|Dokuritsu Junbi Inkai|Chuo Sangi In|Jawa Hokokai
+Proklamasi|Nama PPKI dalam bahasa Jepang adalah ...|Dokuritsu Junbi Inkai|Dokuritsu Junbi Cosakai|Gunseikan|Keibodan
+Proklamasi|Sidang pertama BPUPKI berlangsung pada tanggal ...|29 Mei - 1 Juni 1945|10 - 17 Juli 1945|16 - 17 Agustus 1945|7 - 9 Agustus 1945
+Proklamasi|Piagam Jakarta ditandatangani pada tanggal ...|22 Juni 1945|1 Juni 1945|18 Agustus 1945|17 Agustus 1945
+Proklamasi|Pemuda yang membawa Soekarno dan Hatta ke Rengasdengklok antara lain ...|Sukarni dan Chaerul Saleh|Ahmad Soebardjo dan Iwa Kusumasumantri|Soepomo dan Muhammad Yamin|Sutan Sjahrir dan Amir Sjarifuddin
+Proklamasi|Tokoh golongan tua yang menjemput Soekarno dan Hatta dari Rengasdengklok adalah ...|Ahmad Soebardjo|Sukarni|Chaerul Saleh|Latief Hendraningrat
+Proklamasi|Kalimat pertama naskah proklamasi berasal dari usulan ...|Ahmad Soebardjo|Soekarno|Mohammad Hatta|Sayuti Melik
+Proklamasi|Usul agar naskah proklamasi ditandatangani Soekarno-Hatta atas nama bangsa Indonesia datang dari ...|Sukarni|Sayuti Melik|B.M. Diah|Chaerul Saleh
+Proklamasi|Tokoh yang berperan meyakinkan perubahan tujuh kata dalam Piagam Jakarta sebelum sidang PPKI adalah ...|Mohammad Hatta|Soepomo|Muhammad Yamin|Abikoesno Tjokrosoejoso
+Proklamasi|Lembaga yang membantu presiden sebelum MPR dan DPR terbentuk adalah ...|KNIP|BPUPKI|PPKI|Volksraad
+Revolusi|Maklumat Wakil Presiden No. X (16 Oktober 1945) mengubah KNIP menjadi badan ...|Legislatif|Militer|Kepolisian|Kehakiman
+Revolusi|Maklumat Pemerintah 3 November 1945 berisi anjuran pembentukan ...|Partai-partai politik|Tentara Keamanan Rakyat|BPUPKI|Bank Indonesia
+Revolusi|Perdana menteri pertama Republik Indonesia adalah ...|Sutan Sjahrir|Amir Sjarifuddin|Mohammad Hatta|Ali Sastroamidjojo
+Revolusi|Dalam Perundingan Linggarjati, Belanda mengakui kekuasaan de facto RI atas Jawa, Madura, dan ...|Sumatra|Bali|Kalimantan|Sulawesi
+Revolusi|Perjanjian Renville ditandatangani pada tahun ...|1948|1947|1949|1946
+Revolusi|Garis batas wilayah RI dan Belanda hasil Perjanjian Renville disebut Garis ...|Van Mook|Linggarjati|Wallace|Weber
+Revolusi|Pemberontakan PKI di Madiun tahun 1948 dipimpin oleh ...|Musso|Kartosoewirjo|Kahar Muzakkar|Andi Azis
+Revolusi|Pemerintahan Darurat Republik Indonesia (PDRI) dipimpin oleh ...|Sjafruddin Prawiranegara|Sutan Sjahrir|Mohammad Hatta|Jenderal Soedirman
+Revolusi|Pusat Pemerintahan Darurat Republik Indonesia (PDRI) berada di ...|Bukittinggi, Sumatra Barat|Yogyakarta|Jakarta|Banda Aceh
+Revolusi|Komisi PBB yang dibentuk tahun 1947 untuk menengahi sengketa Indonesia-Belanda adalah ...|Komisi Tiga Negara (KTN)|UNCI|UNTEA|ASEAN
+Revolusi|Negara anggota Komisi Tiga Negara yang dipilih oleh Indonesia adalah ...|Australia|Belgia|Amerika Serikat|Inggris
+Orde Lama|Sistem pemerintahan Indonesia pada tahun 1950-1959 dikenal sebagai demokrasi ...|Liberal (parlementer)|Terpimpin|Pancasila|Langsung
+Orde Lama|Pemberontakan DI/TII di Jawa Barat dipimpin oleh ...|S.M. Kartosoewirjo|Kahar Muzakkar|Daud Beureueh|Ibnu Hadjar
+Orde Lama|Operasi Trikora (1961) bertujuan membebaskan ...|Irian Barat|Timor Timur|Malaysia|Aceh
+Orde Lama|Pemberontakan PRRI berpusat di ...|Sumatra Barat|Sulawesi Utara|Jawa Barat|Maluku
+Orde Lama|Penentuan Pendapat Rakyat (Pepera) di Irian Barat dilaksanakan pada tahun ...|1969|1963|1962|1975
+Orde Lama|Gerakan Dwikora (1964) berkaitan dengan konfrontasi melawan ...|Malaysia|Belanda|Portugis|Australia
+Orde Lama|Pahlawan nasional asal Papua yang gambarnya ada di uang Rp10.000 emisi 2016 adalah ...|Frans Kaisiepo|Silas Papare|Marthen Indey|Johannes Abraham Dimara
+Orde Baru|Salah satu isi Tritura (Tiga Tuntutan Rakyat) tahun 1966 adalah ...|Bubarkan PKI|Bentuk negara federal|Kembali ke UUD Sementara|Bubarkan ASEAN
+Orde Baru|Jajak pendapat yang membuat Timor Timur lepas dari Indonesia dilaksanakan tahun ...|1999|1998|2002|1976
+Reformasi|UUD 1945 telah diamandemen sebanyak ... kali.|4|2|3|5
+Reformasi|Pemilu pertama pada masa Reformasi diselenggarakan tahun ...|1999|1998|2004|1997
+Reformasi|Perjanjian damai Helsinki tahun 2005 mengakhiri konflik di ...|Aceh|Papua|Poso|Ambon
+Reformasi|Mahkamah Konstitusi Republik Indonesia dibentuk pada tahun ...|2003|1999|1945|2010

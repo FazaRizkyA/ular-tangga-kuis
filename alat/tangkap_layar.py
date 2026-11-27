@@ -125,7 +125,7 @@ app.kategori = "Matematika"
 app.kesulitan = "Sedang"
 app._App__mulai_permainan()
 gm = app.gm
-dicari = {"14_rumus_pecahan": "\\frac", "15_rumus_akar": "âˆš", "16_rumus_komposisi": "âˆ˜"}
+dicari = {"14_rumus_pecahan": "\\frac", "15_rumus_invers": "^{-1}", "16_rumus_komposisi": "∘"}
 for _ in range(100):
     teks = gm.soal_aktif.pertanyaan + " ".join(gm.soal_aktif.pilihan.values())
     for nama, tanda in list(dicari.items()):
